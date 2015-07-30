@@ -1,0 +1,14 @@
+{
+  "books":[
+    {
+      "bookId":"1",
+      "title":"胸针教学",
+      "image":"/img/assert/ruping-p1-main.png"
+    },
+    {
+      "bookId":"2",
+      "title":"胸针教学2",
+      "image":"/img/assert/ruping-p1-main.png"
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+<!doctype html>
+<html ng-app>
+<head>
+    <script src="http://code.angularjs.org/angular-1.0.1.min.js"></script>
+    <script src="controller.js"></script>
+</head>
+<body>
+Search: <input type="text" ng-model="query" placeholder="World">
+
+Sort by:
+<select ng-model="orderProp">
+    <option value="name">name</option>
+    <option value="age">age</option>
+</select>
+
+<hr>
+Keyword: {{yourname || 'World'}}!
+
+<ul ng-controller="Phones">
+    <li ng-repeat="phone in phones | filter:query | orderBy:orderProp">
+        {{phone.name}}
+        <p> {{phone.snippet}} </p>
+        <p>{{phone.age}}</p>
+    </li>
+</ul>
+
+</body>
+</html>
