@@ -1,15 +1,16 @@
+(function() {
+    angular.module('jpApp', ['ngRoute', 'jpServices', 'jpRoute']);
 
-angular.module('jpApp', ['ngRoute', 'jpControllers','jpFilters', 'jpServices']).
-
-
+})();
 /* Route config */
-angular.module('jpAppRoute',['ngRoute'])
-    .config(['$routeProvider',
+(function() {
+
+angular.module('jpRoute',['ngRoute']).config(['$routeProvider',
         function($routeProvider) {
             $routeProvider.
                 when('/books', {
                     templateUrl: '../index.html',
-                    controller: 'PhonesController'
+                    controller: 'BooksController'
                 }).
                 when('/book/:bookId',{
                     templateUrl: '../stuff.html',
@@ -19,5 +20,7 @@ angular.module('jpAppRoute',['ngRoute'])
                     redirectTo: '/index'
                 });
 }]);
+
+})();
 
 

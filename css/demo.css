@@ -24,30 +24,27 @@ a{
 .header{height:0;}
 
 .stuff-detail{
-	background-color: #94969b;
-	width:50%;
-	float:left;
-	height:160px;
+	background-color: #333;
 }
 
-.stuff-detail .stuff-item{
-	color:#fff;
+.stuff-item{
+	color:#ccc;
 	padding:8px;
 }
 
-.stuff-detail .stuff-name{
+.stuff-name{
 	font-size:26px;
 	margin-left:5px;
 	margin-top: 5px;
 }
 
-.stuff-detail .stuff-artist{
+.stuff-artist{
 	font-size:18px;
-	margin: 27% 0 0 15px;
+	margin: 48.9% 0 0 15px;
 	padding: 0;
 }
 
-.stuff-detail .stuff-location{
+.stuff-location{
 	margin: 0 15px;
 	padding: 0;
 	font-size:11px;

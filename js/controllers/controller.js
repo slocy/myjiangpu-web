@@ -2,18 +2,40 @@
  * Created by JAMES on 07/29/15.
  */
 
+/*
 var jpControllers = angular.module('jpControllers', []);
 
 jpControllers.controller('BooksCtrl', ['$scope', 'Books', function($scope, Books) {
     $scope.books = Books.query();
 }]);
+*/
 
 
+function BooksController($scope) {
+    $scope.books =[
+            {
+                "bookId":"1",
+                "title":"胸花匠谱",
+                "image":"img/assert/ruping-p1-main.png",
+                "artisan":{
+                    "name":"茹茹萍",
+                    "image":"img/artisan/ruping2.jpg",
+                    "location":"厦门"
+                }
+            },
+            {
+                "bookId":"2",
+                "title":"胸花匠谱",
+                "image":"img/assert/ruping-p1-main.png",
+                "artisan":{
+                    "name":"茹茹萍",
+                    "image":"img/artisan/ruping2.jpg",
+                    "location":"厦门"
+                }
+            }
+    ];
 
-    /*
-
-function BooksController($scope, Books) {
-    $scope.books = Books.query();
+     // Books.query();
 }
 
 
@@ -27,4 +49,4 @@ function BookController($scope, $routeParams, Books) {
     });
 
 }
-*/
+
