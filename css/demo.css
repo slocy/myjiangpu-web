@@ -23,13 +23,22 @@ a{
 /* --------------------------------------------------------------------------------------- */
 .header{height:0;}
 
-.stuff-detail{
-	background-color: #333;
+.square-spacer {
+    width: 100%;
+    height: 0;
+    padding-bottom: 100%;
+    background-color: #303540;
+}
+.square-container{
+	position:relative;
 }
 
-.stuff-item{
+.square-content{
 	color:#ccc;
 	padding:8px;
+	position: absolute;
+	top: 0;
+	left: 0;
 }
 
 .stuff-name{
@@ -40,13 +49,12 @@ a{
 
 .stuff-artist{
 	font-size:18px;
-	margin: 48.9% 0 0 15px;
-	padding: 0;
+	margin:70% 0 0 5px;
 }
 
 .stuff-location{
-	margin: 0 15px;
-	padding: 0;
+	margin: 0 5px;
+	padding:5px 0 0 0;
 	font-size:11px;
 }
 

@@ -29,17 +29,20 @@
 
             <div data-role="content" role="main" ng-repeat="book in books">
 
-                <fieldset class="ui-grid-solo">
+                <div class="ui-grid-solo">
                     <img ng-src="{{book.image}}" class="img-pd-tx" />
-                </fieldset>
-                <fieldset class="ui-grid-a">
+                </div>
+                <div class="ui-grid-a">
                     <img ng-src="{{book.artisan.image}}" class="ui-block-a" />
-                    <div class="ui-block-b stuff-detail">
-                        <div class="stuff-item stuff-name">{{book.title}}</div>
-                        <div class="stuff-item stuff-artist">{{book.artisan.name}}</div>
-                        <div class="stuff-item stuff-location">{{book.artisan.location}}</div>
+                    <div class="ui-block-b square-container">
+                            <div class="square-spacer"></div>
+                            <div class="square-content">
+                                <div class="stuff-name">{{book.title}}</div>
+                                <div class="stuff-artist">{{book.artisan.name}}</div>
+                                <div class="stuff-location">{{book.artisan.location}}</div>
+                            </div>
                     </div>
-                </fieldset>
+                </div>
 
             </div>
         </div>
@@ -92,7 +95,7 @@
         <script src="js/vendor/modernizr-2.6.2.min.js"></script>
 
         <!-- AngularJS -->
-        <script src="http://code.angularjs.org/angular-1.0.1.min.js"></script>
+        <script src="js/vendor/angular/angular-1.0.1.min.js"></script>
         <script src="js/controllers/controller.js"></script>
 
     </body>
