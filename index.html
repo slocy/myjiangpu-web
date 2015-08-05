@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+<html ng-app>
 <!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
 <!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
 <!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
@@ -20,7 +21,7 @@
 
         <link rel="stylesheet" href="css/demo.css">
     </head>
-    <body class="ui-mobile" ng-app>
+    <body class="ui-mobile">
         <!--[if lt IE 7]>
             <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
@@ -30,7 +31,9 @@
             <div data-role="content" role="main" ng-repeat="book in books">
 
                 <div class="ui-grid-solo">
-                    <img ng-src="{{book.image}}" class="img-pd-tx" />
+                    <a ng-href="stuff.html?bookId={{book.bookId}}">
+                        <img ng-src="{{book.image}}" class="img-pd-tx" />
+                    </a>
                 </div>
                 <div class="ui-grid-a">
                     <img ng-src="{{book.artisan.image}}" class="ui-block-a" />

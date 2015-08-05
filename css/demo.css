@@ -35,26 +35,24 @@ a{
 
 .square-content{
 	color:#ccc;
-	padding:8px;
+	padding:10%;
 	position: absolute;
 	top: 0;
 	left: 0;
+
 }
 
 .stuff-name{
 	font-size:26px;
-	margin-left:5px;
-	margin-top: 5px;
+	margin-top: 2%;
 }
 
 .stuff-artist{
 	font-size:18px;
-	margin:70% 0 0 5px;
+	margin:60% 0 0 0;
 }
 
 .stuff-location{
-	margin: 0 5px;
-	padding:5px 0 0 0;
 	font-size:11px;
 }
 

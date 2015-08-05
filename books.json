@@ -5,7 +5,8 @@
     "image":"img/assert/ruping-p1-main.png",
     "artisan":{
       "name":"茹茹萍",
-      "image":"img/artisan/ruping2.jpg"
+      "image":"img/artisan/ruping2.jpg",
+      "location":"厦门"
     }
   },
   {
@@ -14,7 +15,8 @@
     "image":"img/assert/ruping-p1-main.png",
     "artisan":{
       "name":"茹茹萍",
-      "image":"img/artisan/ruping2.jpg"
+      "image":"img/artisan/ruping2.jpg",
+      "location":"厦门"
     }
   }
-];
+]
