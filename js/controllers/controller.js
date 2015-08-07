@@ -2,8 +2,8 @@
  * Created by JAMES on 07/29/15.
  */
 
-angular.module('jpApp',[])
-    .controller('BooksController',function($scope,$http){
+
+    jpApp.controller('BooksController',function($scope,$http){
         $http({
             method: 'GET',
             url: '/books.json'
@@ -12,7 +12,6 @@ angular.module('jpApp',[])
         });
 
     });
-
 
 //
 //var BooksController = function($scope, $http){
