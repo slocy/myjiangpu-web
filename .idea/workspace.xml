@@ -1,103 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="BookmarkManager">
-    <bookmark url="file://$PROJECT_DIR$/angularjs-helloworld/angular1.4.3-test.html" line="3" />
-  </component>
   <component name="ChangeListManager">
     <list default="true" id="f569e14d-136f-4b2f-b9a1-1f4ec3a97a55" name="Default" comment="some changes">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/books.js" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/js/main.js" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/fonts/Flat-UI-Icons-24.woff" afterPath="$PROJECT_DIR$/css/fonts/Flat-UI-Icons-24.woff" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/images/ajax-loader.gif" afterPath="$PROJECT_DIR$/css/images/ajax-loader.gif" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/apple-touch-icon-precomposed.png" afterPath="$PROJECT_DIR$/apple-touch-icon-precomposed.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/favicon.ico" afterPath="$PROJECT_DIR$/favicon.ico" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/fonts/glyphicons-halflings-regular.eot" afterPath="$PROJECT_DIR$/fonts/glyphicons-halflings-regular.eot" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/fonts/glyphicons-halflings-regular.ttf" afterPath="$PROJECT_DIR$/fonts/glyphicons-halflings-regular.ttf" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/fonts/glyphicons-halflings-regular.woff2" afterPath="$PROJECT_DIR$/fonts/glyphicons-halflings-regular.woff2" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/fonts/glyphicons-halflings-regular.woff" afterPath="$PROJECT_DIR$/fonts/glyphicons-halflings-regular.woff" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/images/icons-18-black.png" afterPath="$PROJECT_DIR$/css/images/icons-18-black.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/images/icons-18-white.png" afterPath="$PROJECT_DIR$/css/images/icons-18-white.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/images/icons-36-black.png" afterPath="$PROJECT_DIR$/css/images/icons-36-black.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/images/icons-36-white.png" afterPath="$PROJECT_DIR$/css/images/icons-36-white.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/icons/intro.png" afterPath="$PROJECT_DIR$/css/icons/intro.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/icons/intro.png" afterPath="$PROJECT_DIR$/img/icons/intro.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/icons/intro_on.png" afterPath="$PROJECT_DIR$/css/icons/intro_on.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/icons/intro_on.png" afterPath="$PROJECT_DIR$/img/icons/intro_on.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/assert/keren-p1-material.jpg" afterPath="$PROJECT_DIR$/img/assert/keren-p1-material.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/artisan/keren.png" afterPath="$PROJECT_DIR$/img/artisan/keren.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/fonts/lato-black.woff" afterPath="$PROJECT_DIR$/css/fonts/lato-black.woff" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/fonts/lato-bold.woff" afterPath="$PROJECT_DIR$/css/fonts/lato-bold.woff" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/fonts/lato-italic.woff" afterPath="$PROJECT_DIR$/css/fonts/lato-italic.woff" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/fonts/lato-regular.woff" afterPath="$PROJECT_DIR$/css/fonts/lato-regular.woff" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/assert/ruping-p1-main.png" afterPath="$PROJECT_DIR$/img/assert/ruping-p1-main.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/artisan/ruping.jpg" afterPath="$PROJECT_DIR$/img/artisan/ruping.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/artisan/ruping2.jpg" afterPath="$PROJECT_DIR$/img/artisan/ruping2.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/icons/step.png" afterPath="$PROJECT_DIR$/css/icons/step.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/icons/step.png" afterPath="$PROJECT_DIR$/img/icons/step.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/icons/step_on.png" afterPath="$PROJECT_DIR$/css/icons/step_on.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/icons/step_on.png" afterPath="$PROJECT_DIR$/img/icons/step_on.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/icons/wuliao.png" afterPath="$PROJECT_DIR$/css/icons/wuliao.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/icons/wuliao.png" afterPath="$PROJECT_DIR$/img/icons/wuliao.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/icons/wuliao_on.png" afterPath="$PROJECT_DIR$/css/icons/wuliao_on.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/icons/wuliao_on.png" afterPath="$PROJECT_DIR$/img/icons/wuliao_on.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/.gitignore" afterPath="$PROJECT_DIR$/img/.gitignore" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/.name" afterPath="$PROJECT_DIR$/.idea/.name" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/doc/TOC.md" afterPath="$PROJECT_DIR$/doc/TOC.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/vendor/angular/angular-1.0.1.min.js" afterPath="$PROJECT_DIR$/js/vendor/angular/angular-1.0.1.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/vendor/angular/angular-animate.js" afterPath="$PROJECT_DIR$/js/vendor/angular/angular-animate.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/vendor/angular/angular-cookie.js" afterPath="$PROJECT_DIR$/js/vendor/angular/angular-cookie.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/vendor/angular/angular-resource.js" afterPath="$PROJECT_DIR$/js/vendor/angular/angular-resource.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/vendor/angular/angular-route.js" afterPath="$PROJECT_DIR$/js/vendor/angular/angular-route.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/app.js" afterPath="$PROJECT_DIR$/js/app.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/artisan.html" afterPath="$PROJECT_DIR$/artisan.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/books.json" afterPath="$PROJECT_DIR$/books.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/bootstrap-theme.css.map" afterPath="$PROJECT_DIR$/css/bootstrap-theme.css.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/bootstrap-theme.css" afterPath="$PROJECT_DIR$/css/bootstrap-theme.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/bootstrap-theme.min.css" afterPath="$PROJECT_DIR$/css/bootstrap-theme.min.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/bootstrap.css.map" afterPath="$PROJECT_DIR$/css/bootstrap.css.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/bootstrap.css" afterPath="$PROJECT_DIR$/css/bootstrap.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/vendor/bootstrap.js" afterPath="$PROJECT_DIR$/js/vendor/bootstrap.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/bootstrap.min.css" afterPath="$PROJECT_DIR$/css/bootstrap.min.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/vendor/bootstrap.min.js" afterPath="$PROJECT_DIR$/js/vendor/bootstrap.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/angularjs-helloworld/controller.js" afterPath="$PROJECT_DIR$/angularjs-helloworld/controller.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/controllers/controller.js" afterPath="$PROJECT_DIR$/js/controllers/controller.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/doc/crossdomain.md" afterPath="$PROJECT_DIR$/doc/crossdomain.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/crossdomain.xml" afterPath="$PROJECT_DIR$/crossdomain.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/doc/css.md" afterPath="$PROJECT_DIR$/doc/css.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/demo.css" afterPath="$PROJECT_DIR$/css/demo.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/doc/extend.md" afterPath="$PROJECT_DIR$/doc/extend.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/doc/faq.md" afterPath="$PROJECT_DIR$/doc/faq.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/fonts/glyphicons-halflings-regular.svg" afterPath="$PROJECT_DIR$/fonts/glyphicons-halflings-regular.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/angularjs-helloworld/helloworld4angularjs.html" afterPath="$PROJECT_DIR$/angularjs-helloworld/helloworld4angularjs.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/doc/html.md" afterPath="$PROJECT_DIR$/doc/html.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/vendor/jqm-1.3.0.min.js" afterPath="$PROJECT_DIR$/js/vendor/jqm-1.3.0.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jqm-square-theme-demo.html" afterPath="$PROJECT_DIR$/jqm-square-theme-demo.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/vendor/jquery-1.10.2.min.js" afterPath="$PROJECT_DIR$/js/vendor/jquery-1.10.2.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/vendor/jquery-1.9.1.min.js" afterPath="$PROJECT_DIR$/js/vendor/jquery-1.9.1.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/jquery.mobile.flatui.css" afterPath="$PROJECT_DIR$/css/jquery.mobile.flatui.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/jquery.mobile.squareui.css" afterPath="$PROJECT_DIR$/css/jquery.mobile.squareui.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/jquery.mobile.squareui.custom.css" afterPath="$PROJECT_DIR$/css/jquery.mobile.squareui.custom.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/jquery.mobile.squareui.min.css" afterPath="$PROJECT_DIR$/css/jquery.mobile.squareui.min.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/doc/js.md" afterPath="$PROJECT_DIR$/doc/js.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/main.css" afterPath="$PROJECT_DIR$/css/main.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/doc/misc.md" afterPath="$PROJECT_DIR$/doc/misc.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/vendor/modernizr-2.6.2.min.js" afterPath="$PROJECT_DIR$/js/vendor/modernizr-2.6.2.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/myjiangpu-web.iml" afterPath="$PROJECT_DIR$/.idea/myjiangpu-web.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/normalize.css" afterPath="$PROJECT_DIR$/css/normalize.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/vendor/npm.js" afterPath="$PROJECT_DIR$/js/vendor/npm.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/plugins.js" afterPath="$PROJECT_DIR$/js/plugins.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/services.js" afterPath="$PROJECT_DIR$/js/services.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/stuff.html" afterPath="$PROJECT_DIR$/stuff.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/angularjs-helloworld/todo.css" afterPath="$PROJECT_DIR$/angularjs-helloworld/todo.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/angularjs-helloworld/todo.js" afterPath="$PROJECT_DIR$/angularjs-helloworld/todo.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/doc/usage.md" afterPath="$PROJECT_DIR$/doc/usage.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/book.json" afterPath="$PROJECT_DIR$/book.json" />
     </list>
     <ignored path="myjiangpu-web.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -133,8 +38,8 @@
           <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/index.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="-22.875">
-                  <caret line="62" column="0" selection-start-line="62" selection-start-column="0" selection-end-line="64" selection-end-column="0" />
+                <state vertical-scroll-proportion="-34.375">
+                  <caret line="55" column="16" selection-start-line="55" selection-start-column="16" selection-end-line="55" selection-end-column="16" />
                   <folding />
                 </state>
               </provider>
@@ -153,8 +58,8 @@
           <file leaf-file-name="book.html" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/book.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.75308645">
-                  <caret line="115" column="0" selection-start-line="115" selection-start-column="0" selection-end-line="116" selection-end-column="57" />
+                <state vertical-scroll-proportion="0.8148148">
+                  <caret line="119" column="0" selection-start-line="119" selection-start-column="0" selection-end-line="119" selection-end-column="0" />
                   <folding />
                 </state>
               </provider>
@@ -187,8 +92,8 @@
           <file leaf-file-name="book.json" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/book.json">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.28806585">
-                  <caret line="14" column="15" selection-start-line="14" selection-start-column="3" selection-end-line="14" selection-end-column="15" />
+                <state vertical-scroll-proportion="0.5761317">
+                  <caret line="28" column="24" selection-start-line="28" selection-start-column="24" selection-end-line="28" selection-end-column="24" />
                   <folding />
                 </state>
               </provider>
@@ -259,11 +164,11 @@
         <option value="$PROJECT_DIR$/templates/books-template.js" />
         <option value="$PROJECT_DIR$/css/demo.css" />
         <option value="$PROJECT_DIR$/stuff.html" />
-        <option value="$PROJECT_DIR$/book.json" />
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/js/books.js" />
         <option value="$PROJECT_DIR$/js/book.js" />
         <option value="$PROJECT_DIR$/book.html" />
+        <option value="$PROJECT_DIR$/book.json" />
       </list>
     </option>
   </component>
@@ -275,8 +180,8 @@
     <order />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="34" />
-    <option name="y" value="105" />
+    <option name="x" value="32" />
+    <option name="y" value="23" />
     <option name="width" value="1687" />
     <option name="height" value="873" />
   </component>
@@ -497,7 +402,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="34" y="105" width="1687" height="873" extended-state="6" />
+    <frame x="32" y="23" width="1687" height="873" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3290653" sideWeight="0.49753347" order="0" side_tool="false" content_ui="tabs" />
@@ -573,14 +478,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/angularjs-helloworld/todo.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.09054326">
-          <caret line="3" column="1" selection-start-line="3" selection-start-column="1" selection-end-line="3" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/jqm-square-theme-demo.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-5.625">
@@ -647,14 +544,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/angularjs-helloworld/todo.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="26" column="10" selection-start-line="6" selection-start-column="0" selection-end-line="26" selection-end-column="10" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/css/jquery.mobile.flatui.css">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -673,206 +562,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/angularjs-helloworld/jqmdemo/create.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-3.125">
-          <caret line="5" column="6" selection-start-line="5" selection-start-column="6" selection-end-line="5" selection-end-column="6" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/angularjs-helloworld/jqmdemo/jquery-1.11.1.min.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.075630255">
-          <caret line="3" column="31419" selection-start-line="3" selection-start-column="31419" selection-end-line="3" selection-end-column="31419" />
-          <folding>
-            <element signature="n#!!doc" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/angularjs-helloworld/jqmdemo/angular-1.3.13.min.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.94957983">
-          <caret line="249" column="39" selection-start-line="249" selection-start-column="39" selection-end-line="249" selection-end-column="39" />
-          <folding>
-            <element signature="n#!!doc" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/angularjs-helloworld/jqmdemo/jquery.mobile-1.4.3.min.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.9947183">
-          <caret line="9" column="42" selection-start-line="9" selection-start-column="42" selection-end-line="9" selection-end-column="42" />
-          <folding>
-            <element signature="n#!!doc" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/angularjs-helloworld/jqmdemo/jquery.mobile-1.4.3.min.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.8890845">
-          <caret line="2" column="207101" selection-start-line="2" selection-start-column="207101" selection-end-line="2" selection-end-column="207101" />
-          <folding>
-            <element signature="e#177#986#2" expanded="false" />
-            <element signature="e#1025#1983#2" expanded="false" />
-            <element signature="e#2026#3051#2" expanded="false" />
-            <element signature="e#3094#4119#2" expanded="false" />
-            <element signature="e#4160#5173#2" expanded="false" />
-            <element signature="e#5214#6228#2" expanded="false" />
-            <element signature="e#6269#7282#2" expanded="false" />
-            <element signature="e#7325#8350#2" expanded="false" />
-            <element signature="e#8393#9418#2" expanded="false" />
-            <element signature="e#9459#10473#2" expanded="false" />
-            <element signature="e#10512#11940#2" expanded="false" />
-            <element signature="e#11978#12785#2" expanded="false" />
-            <element signature="e#12823#13879#2" expanded="false" />
-            <element signature="e#13920#15273#2" expanded="false" />
-            <element signature="e#15315#16643#2" expanded="false" />
-            <element signature="e#16683#17855#2" expanded="false" />
-            <element signature="e#17896#18700#2" expanded="false" />
-            <element signature="e#18741#19546#2" expanded="false" />
-            <element signature="e#19587#20391#2" expanded="false" />
-            <element signature="e#20432#21237#2" expanded="false" />
-            <element signature="e#21325#22128#2" expanded="false" />
-            <element signature="e#22167#23421#2" expanded="false" />
-            <element signature="e#23460#24507#2" expanded="false" />
-            <element signature="e#24548#25638#2" expanded="false" />
-            <element signature="e#25678#26739#2" expanded="false" />
-            <element signature="e#26777#27794#2" expanded="false" />
-            <element signature="e#27831#28831#2" expanded="false" />
-            <element signature="e#28874#30432#2" expanded="false" />
-            <element signature="e#30473#31275#2" expanded="false" />
-            <element signature="e#31313#34344#2" expanded="false" />
-            <element signature="e#34382#36568#2" expanded="false" />
-            <element signature="e#36607#37451#2" expanded="false" />
-            <element signature="e#37489#38539#2" expanded="false" />
-            <element signature="e#38577#39742#2" expanded="false" />
-            <element signature="e#39784#40698#2" expanded="false" />
-            <element signature="e#40736#41725#2" expanded="false" />
-            <element signature="e#41763#42531#2" expanded="false" />
-            <element signature="e#42570#43315#2" expanded="false" />
-            <element signature="e#43359#44107#2" expanded="false" />
-            <element signature="e#44146#45574#2" expanded="false" />
-            <element signature="e#45612#46667#2" expanded="false" />
-            <element signature="e#46706#48154#2" expanded="false" />
-            <element signature="e#48195#49221#2" expanded="false" />
-            <element signature="e#49262#50604#2" expanded="false" />
-            <element signature="e#50644#51720#2" expanded="false" />
-            <element signature="e#51758#52813#2" expanded="false" />
-            <element signature="e#52851#53659#2" expanded="false" />
-            <element signature="e#53696#54760#2" expanded="false" />
-            <element signature="e#54798#56332#2" expanded="false" />
-            <element signature="e#56371#57242#2" expanded="false" />
-            <element signature="e#57329#58102#2" expanded="false" />
-            <element signature="e#58187#59109#2" expanded="false" />
-            <element signature="e#59198#60189#2" expanded="false" />
-            <element signature="e#60282#61285#2" expanded="false" />
-            <element signature="e#61378#62381#2" expanded="false" />
-            <element signature="e#62470#63462#2" expanded="false" />
-            <element signature="e#63551#64542#2" expanded="false" />
-            <element signature="e#64631#65623#2" expanded="false" />
-            <element signature="e#65716#66719#2" expanded="false" />
-            <element signature="e#66812#67815#2" expanded="false" />
-            <element signature="e#67900#69306#2" expanded="false" />
-            <element signature="e#69389#70160#2" expanded="false" />
-            <element signature="e#70243#71263#2" expanded="false" />
-            <element signature="e#71352#72666#2" expanded="false" />
-            <element signature="e#72757#74063#2" expanded="false" />
-            <element signature="e#74150#75283#2" expanded="false" />
-            <element signature="e#75372#76140#2" expanded="false" />
-            <element signature="e#76229#76998#2" expanded="false" />
-            <element signature="e#77087#77855#2" expanded="false" />
-            <element signature="e#77944#78713#2" expanded="false" />
-            <element signature="e#78891#79658#2" expanded="false" />
-            <element signature="e#79743#80975#2" expanded="false" />
-            <element signature="e#81060#82071#2" expanded="false" />
-            <element signature="e#82160#83228#2" expanded="false" />
-            <element signature="e#83315#84354#2" expanded="false" />
-            <element signature="e#84437#85432#2" expanded="false" />
-            <element signature="e#85513#86477#2" expanded="false" />
-            <element signature="e#86570#88106#2" expanded="false" />
-            <element signature="e#88195#88961#2" expanded="false" />
-            <element signature="e#89044#92053#2" expanded="false" />
-            <element signature="e#92136#94300#2" expanded="false" />
-            <element signature="e#94385#95196#2" expanded="false" />
-            <element signature="e#95279#96307#2" expanded="false" />
-            <element signature="e#96390#97533#2" expanded="false" />
-            <element signature="e#97624#98502#2" expanded="false" />
-            <element signature="e#98585#99535#2" expanded="false" />
-            <element signature="e#99618#100350#2" expanded="false" />
-            <element signature="e#100435#101144#2" expanded="false" />
-            <element signature="e#101239#101951#2" expanded="false" />
-            <element signature="e#102036#103413#2" expanded="false" />
-            <element signature="e#103496#104529#2" expanded="false" />
-            <element signature="e#104614#106026#2" expanded="false" />
-            <element signature="e#106115#107102#2" expanded="false" />
-            <element signature="e#107191#108511#2" expanded="false" />
-            <element signature="e#108621#109661#2" expanded="false" />
-            <element signature="e#109744#110763#2" expanded="false" />
-            <element signature="e#110846#111618#2" expanded="false" />
-            <element signature="e#111699#112741#2" expanded="false" />
-            <element signature="e#112824#114336#2" expanded="false" />
-            <element signature="e#114421#115253#2" expanded="false" />
-            <element signature="e#175984#176073#2" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/angularjs-helloworld/jqmdemo/angular-route-1.4.0-beta.4.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.94957983">
-          <caret line="988" column="27" selection-start-line="988" selection-start-column="27" selection-end-line="988" selection-end-column="27" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/angularjs-helloworld/jqmdemo/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="20" column="1" selection-start-line="20" selection-start-column="1" selection-end-line="20" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/angularjs-helloworld/jqmdemo/view.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-13.125">
-          <caret line="21" column="6" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="6" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/angularjs-helloworld/controller.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.40336135">
-          <caret line="16" column="1" selection-start-line="16" selection-start-column="1" selection-end-line="16" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/artisan.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-21.875">
           <caret line="35" column="25" selection-start-line="35" selection-start-column="25" selection-end-line="35" selection-end-column="25" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/angularjs-helloworld/angular1.4.3-test.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-10.625">
-          <caret line="17" column="9" selection-start-line="17" selection-start-column="9" selection-end-line="17" selection-end-column="9" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/angularjs-helloworld/helloworld4angularjs.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-16.25">
-          <caret line="26" column="0" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -929,66 +622,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/angularjs-helloworld/jqmdemo/list.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-6.25">
-          <caret line="10" column="6" selection-start-line="10" selection-start-column="6" selection-end-line="10" selection-end-column="6" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/angularjs-helloworld/jqmdemo/form.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-8.125">
-          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/angularjs-helloworld/jqmdemo/edit.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-3.125">
-          <caret line="5" column="6" selection-start-line="5" selection-start-column="6" selection-end-line="5" selection-end-column="6" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/angularjs-helloworld/jqmdemo/config.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.34453782">
-          <caret line="16" column="44" selection-start-line="16" selection-start-column="44" selection-end-line="16" selection-end-column="44" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/angularjs-helloworld/jqmdemo/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.44658494">
-          <caret line="17" column="27" selection-start-line="17" selection-start-column="27" selection-end-line="17" selection-end-column="27" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/angularjs-helloworld/jqmdemo/js.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.42857143">
-          <caret line="27" column="34" selection-start-line="27" selection-start-column="4" selection-end-line="27" selection-end-column="34" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$APPLICATION_HOME_DIR$/lib/webstorm.jar!/resources/html5-schema/html5/aria.rnc">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-11.201681">
           <caret line="760" column="22" selection-start-line="760" selection-start-column="22" selection-end-line="760" selection-end-column="22" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/angularjs-helloworld/jqmdemo/ajaxSimulator.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.3529412">
-          <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -1033,14 +670,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/book.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-13.75">
-          <caret line="22" column="7" selection-start-line="22" selection-start-column="7" selection-end-line="22" selection-end-column="7" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/js/books.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -1057,14 +686,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/book.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="15" column="25" selection-start-line="15" selection-start-column="25" selection-end-line="15" selection-end-column="25" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$APPLICATION_HOME_DIR$/lib/webstorm.jar!/resources/html5-schema/html5/core-scripting.rnc">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.23904383">
@@ -1073,18 +694,34 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/js/book.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="15" column="25" selection-start-line="15" selection-start-column="25" selection-end-line="15" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-22.875">
-          <caret line="62" column="0" selection-start-line="62" selection-start-column="0" selection-end-line="64" selection-end-column="0" />
+        <state vertical-scroll-proportion="-34.375">
+          <caret line="55" column="16" selection-start-line="55" selection-start-column="16" selection-end-line="55" selection-end-column="16" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/book.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.75308645">
-          <caret line="115" column="0" selection-start-line="115" selection-start-column="0" selection-end-line="116" selection-end-column="57" />
+        <state vertical-scroll-proportion="0.8148148">
+          <caret line="119" column="0" selection-start-line="119" selection-start-column="0" selection-end-line="119" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/book.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.5761317">
+          <caret line="28" column="24" selection-start-line="28" selection-start-column="24" selection-end-line="28" selection-end-column="24" />
           <folding />
         </state>
       </provider>
