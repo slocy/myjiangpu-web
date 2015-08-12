@@ -3,52 +3,63 @@
 <!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
 <!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
 <!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title>匠人</title>
-        <meta name="description" content="">
-        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>匠谱</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no">
 
-        <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+    <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
 
-        <link rel="stylesheet" href="css/normalize.css">
-        <link rel="stylesheet" href="css/main.css">
-        <link rel="stylesheet" href="css/demo.css">
-        <script src="js/vendor/modernizr-2.6.2.min.js"></script>
-    </head>
-    <body class="body">
-        <!--[if lt IE 7]>
-            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
-        <![endif]-->
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/main.css">
 
-        <div class="header">
-        </div>
+    <!-- jquery mobile square UI -->
+    <link rel="stylesheet" href="css/jquery.mobile-1.4.5.css" />
 
-        <div class="artisan-avator">
-            <img src="img/artisan/keren.png"/>
-        </div>
+    <link rel="stylesheet" href="css/demo.css">
+</head>
+<div class="ui-mobile">
+<!--[if lt IE 7]>
+<p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+<![endif]-->
 
-        <h1 class="artisan-name">小驴抓抓</h1>
+<div data-role="page">
+    <div id="result"  data-role="content" role="main">
 
-        <div class="artisan-desc">
-            <p>
-            平面设计师,淘宝手工达人。
-            <br/><br/>
-            隐藏在柴米油盐里的好奇星人，曾经在大战供应商星人中受到了严重的精神创伤而养成了凡事靠自己动手的好/坏习惯，竟然不知不觉的变成了一枚小手工艺人，只要动手的活儿没有会不会，只有想不想。
-            </p>
-        </div>
+    </div>
+</div>
 
-        <div class="stuff-more-hx stuff-more">
-            <a href="stuff.html"><img src="img/assert/keren-p1-main.png"/></a>
-            <a href="stuff.html"><img src="img/steps/step4.jpg"/></a>
-            <a href="stuff.html"><img src="img/steps/step6.jpg"/></a>
-            <a href="stuff.html"><img src="img/steps/step8.jpg"/></a>
-        </div>
+    <!-- the template -->
+<script id="artisanTmpl" type="text/x-jsrender">
 
-        <script src="//cdn.staticfile.org/jquery/1.10.2/jquery.min.js"></script>
-        <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.10.2.min.js"><\/script>')</script>
-        <script src="js/plugins.js"></script>
-        <script src="js/main.js"></script>
-    </body>
+    <div class="ui-grid-solo">
+        <img src="{{:images}}" class="ui-block-a" />
+        <h3>{{:name}}</h3>
+        <p>{{:city}}</p>
+        <p>{{:description}}</p>
+    </div>
+    <div class="ui-grid-a">
+
+        {^{for works}}
+            {{if #index%2==0 }}
+                <img src="{{:image}}" class="ui-block-a" />
+            {{else}}
+                <img src="{{:image}}" class="ui-block-b" />
+            {{/if}}
+        {{/for}}
+    </div>
+
+</script>
+
+
+<script src="js/vendor/jquery-1.10.2.min.js"></script>
+<script src="js/vendor/jquery.mobile-1.4.5.js"></script>
+<script src="js/vendor/modernizr-2.6.2.min.js"></script>
+
+<script src="js/vendor/jsrender.js"></script>
+<script src="js/artisan.js"></script>
+
+</body>
 </html>

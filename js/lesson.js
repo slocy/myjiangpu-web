@@ -1,23 +1,23 @@
 
 
-var book;
+var lesson;
 $(document).ready(function () {
-    book = new Book();
-    book.getData();
+    lesson = new Lesson();
+    lesson.getData();
 
 });
 
-function Book (){}
-Book.prototype = {
+function Lesson (){}
+Lesson.prototype = {
     getData: function () {
 
         $.ajax({
-            url: "/book.json",
+            url: "/lessonModel.json",
             cache: false,
             success: function (data) {
                 if (data != "") {
                     //bind data to page
-                    book.bindTemplate(data);
+                    lesson.bindTemplate(data);
                 }
             },
             error: function () {
@@ -28,8 +28,8 @@ Book.prototype = {
     },
 
     bindTemplate: function(data){
-        var template = $.templates("#bookTmpl");
+        var template = $.templates("#lessonTmpl");
         var htmlOutput = template.render(data);
-        $("#bookResult").html(htmlOutput);
+        $("#result").html(htmlOutput);
     }
 };

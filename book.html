@@ -26,19 +26,21 @@
 <![endif]-->
 
 
+
 <div data-role="page">
-    <div id="result"  data-role="content" role="main">
+    <div id="bookResult"  data-role="content" role="main">
 
 
     </div>
 </div>
 
+
 <!-- the template -->
-<script id="tmpl" type="text/x-jsrender">
+<script id="bookTmpl" type="text/x-jsrender">
 
 
 
-        <h1 class="stuff-title">{{:title}}</h1>
+        <h1>{{:title}}</h1>
 
         <div class="stuff-desc">
             <p>
@@ -50,40 +52,42 @@
             <img src="{{:primaryImage}}" class="ui-block-a" />
         </div>
 
-        <div class="ui-grid-a">
-            <img src="{{:artisan.image}}" class="ui-block-a" />
-            <div class="ui-block-b square-container">
-                <div class="square-spacer"></div>
-                <div class="square-content">
-                    <div class="stuff-artist">{{:artisan.name}}</div>
-                    <div class="stuff-location artisanLocation">{{:artisan.city}}</div>
+
+        <a href="artisan.html" data-ajax="false">
+            <div class="ui-grid-a">
+                <img src="{{:artisan.image}}" class="ui-block-a" />
+                <div class="ui-block-b square-container">
+                    <div class="square-spacer"></div>
+                    <div class="square-content">
+                        <div class="stuff-artist">{{:artisan.name}}</div>
+                        <div class="stuff-location artisanLocation">{{:artisan.city}}</div>
+                    </div>
                 </div>
             </div>
-        </div>
-
+        </a>
 
         <div class="ui-grid-solo">
-            <h3>材料</h3>
-            <div class="ui-block-a">
+            <h1>材料</h1>
+            <p class="ui-block-a">
                 {{:stuff.description}}
-            </div>
+            </p>
             <img src="{{:stuff.image}}" class="ui-block-a" />
         </div>
 
         <ul class="ui-grid-solo">
-            <h3>工具</h3>
-            <div class="ui-block-a">
+            <h1>工具</h1>
+            <p class="ui-block-a">
                 {{:utility.description}}
-            </div>
+            </p>
             <img src="{{:utility.image}}" class="ui-block-a" />
         </ul>
 
         <div class="ui-grid-solo">
-            <h3>步骤</h3>
+            <h1>步骤</h1>
             {^{for steps}}
+                <img src="{{:images}}" class="ui-block-a" />
                 <h3>步骤 {{:sortNum}}</h3>
                 <p>{{:description}}</p>
-                <img src="{{:image}}" class="ui-block-a" />
 
             {{/for}}
         </div>
@@ -101,7 +105,7 @@
                     <a href="#items">购买</a>
                 </li>
                 <li>
-                    <a href="#steps">约课</a>
+                    <a href="lesson.html" data-ajax="false">约课</a>
                 </li>
             </ul>
         </div>
@@ -109,14 +113,13 @@
  </script>
 
 
+
+
 <script src="js/vendor/jquery-1.10.2.min.js"></script>
 <script src="js/vendor/jquery.mobile-1.4.5.js"></script>
 <script src="js/vendor/modernizr-2.6.2.min.js"></script>
 <script src="js/vendor/jsrender.js"></script>
 
-<script src="js/book.js" type="text/javascript"></script>
-
-
-
+<script src="js/book.js"></script>
 </body>
 </html>

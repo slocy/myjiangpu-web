@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>约课</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no">
+
+    <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/main.css">
+
+    <!-- jquery mobile square UI -->
+    <link rel="stylesheet" href="css/jquery.mobile-1.4.5.css" />
+
+    <link rel="stylesheet" href="css/demo.css">
+</head>
+<div class="ui-mobile">
+    <!--[if lt IE 7]>
+    <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+    <![endif]-->
+
+    <div data-role="page">
+        <div id="result"  data-role="content" role="main">
+
+
+
+        </div>
+    </div>
+
+</div>
+
+    <!-- the template -->
+<script id="lessonTmpl" type="text/x-jsrender">
+
+
+<form>
+            <div class="ui-grid-a">
+                <img src="{{:book.primaryImage}}" class="ui-block-a" />
+                <div class="ui-block-b pl5">
+                    <h3 class="pl0">{{:title}}</h3>
+                    <p>{{:artisan.name}}</p>
+                    <p>￥{{:price}}</p>
+                    <p>
+                        <input style="width:50px;" type="number" data-mini="true" data-clear-btn="true" name="number-4" pattern="[0-9]*" id="number-4" value="1">
+                    </p>
+                </div>
+            </div>
+            <div class="ui-grid-solo">
+                <h3>说明</h3>
+                <p>{{:comment}}</p>
+                <h3>您的手机号码</h3>
+                <p>
+                    <input type="text" id="#phone" />
+                </p>
+
+                <h3>留言</h3>
+                <p>
+                    <textarea rows="3" id="#leavemessage" />
+                </p>
+            </div>
+
+            <div class="footer-xline"></div>
+
+            <div class="footer">
+
+                <a href="#summary">确定</a>
+
+            </div>
+</form>
+
+</script>
+
+
+    <script src="js/vendor/jquery-1.10.2.min.js"></script>
+    <script src="js/vendor/jquery.mobile-1.4.5.js"></script>
+    <script src="js/vendor/modernizr-2.6.2.min.js"></script>
+
+    <script src="js/vendor/jsrender.js"></script>
+    <script src="js/lesson.js"></script>
+
+    </body>
+</html>

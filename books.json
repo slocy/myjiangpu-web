@@ -1,22 +1,22 @@
 [
   {
     "bookId":"1",
-    "title":"胸花匠谱",
+    "title":"蔷薇胸花",
     "image":"img/assert/ruping-p1-main.png",
     "artisan":{
       "name":"茹茹萍",
       "image":"img/artisan/ruping2.jpg",
-      "location":"厦门"
+      "location":"厦门·一朵植物美学实验室"
     }
   },
   {
     "bookId":"2",
-    "title":"胸花匠谱",
+    "title":"蔷薇胸花",
     "image":"img/assert/ruping-p1-main.png",
     "artisan":{
       "name":"茹茹萍",
       "image":"img/artisan/ruping2.jpg",
-      "location":"厦门"
+      "location":"厦门·一朵植物美学实验室"
     }
   }
 ]

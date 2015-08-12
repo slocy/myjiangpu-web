@@ -1,0 +1,16 @@
+{
+    "lessonId":"1",
+    "title":"蔷薇胸花",
+    "comment":"价格包括胸针所需的材料，如果需要多带走材料包，可以在匠谱中材料部分下单购买。",
+    "artisan":{
+        "artisanId":"1",
+        "name":"茹茹萍"
+    },
+    "book":{
+        "bookId":"1",
+        "primaryImage":"img/assert/ruping-p1-main.png"
+    },
+    "datetime":"",
+    "place":"厦门.一朵植物美学实验室",
+    "price":"100"
+}

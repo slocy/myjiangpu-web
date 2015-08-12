@@ -1,0 +1,29 @@
+{
+  "artisanId" : "1",
+  "name" : "茹茹萍",
+  "fullName": "茹茹萍",
+  "wechatId" : "ruruping",
+  "cellphone" : "",
+  "description" : "毕业于中央美术学院，捣腾在植物与手工之间，坚持做喜欢的事情，努力让喜欢的事情有价值。",
+  "city" : "厦门·一朵植物美学实验室",
+  "address" : "",
+  "images":"img/artisan/IMG_3032.jpg",
+  "works":[
+    {
+      "bookId":"1",
+      "image":"img/works/10.jpg"
+    },
+    {
+      "bookId":"2",
+      "image":"img/works/2.jpg"
+    },
+    {
+      "bookId":"1",
+      "image":"img/works/4.jpg"
+    },
+    {
+      "bookId":"2",
+      "image":"img/works/3.jpg"
+    }
+    ]
+}

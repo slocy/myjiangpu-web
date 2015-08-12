@@ -4,7 +4,7 @@ var books;
 $(document).ready(function () {
     books = new Books();
     books.getData();
-
+    books.bindEvent();
 });
 
 function Books (){}
@@ -28,8 +28,12 @@ Books.prototype = {
     },
 
     bindTemplate: function(data){
-            var template = $.templates("#tmpl");
+            var template = $.templates("#booksTmpl");
             var htmlOutput = template.render(data);
-            $("#result").html(htmlOutput);
+            $("#booksResult").html(htmlOutput);
+    },
+
+    bindEvent:function() {
+
     }
 };

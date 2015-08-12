@@ -25,33 +25,40 @@
             <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
 
-
         <div data-role="page">
-            <div id="result"  data-role="content" role="main">
+            <div id="booksResult"  data-role="content" role="main">
 
             </div>
         </div>
 
 
-        <!-- the template -->
-        <script id="tmpl" type="text/x-jsrender">
 
+
+        <!-- the template -->
+        <script id="booksTmpl" type="text/x-jsrender">
+
+            <a href="/book.html" data-transition="fade" data-ajax="false">
             <div class="ui-grid-solo">
-                <a href="/book.html" data-transition="none">
-                    <img src="{{:image}}" class="img-pd-tx" />
-                </a>
+                    <img src="{{:image}}" class="ui-block-a" />
             </div>
-            <div class="ui-grid-a">
-                <img src="{{:artisan.image}}" class="ui-block-a" />
-                <div class="ui-block-b square-container">
-                    <div class="square-spacer"></div>
-                    <div class="square-content">
-                        <div class="stuff-name">{{:title}}</div>
+            </a>
+
+            <a href="artisan.html" data-ajax="false">
+                <div class="ui-grid-a">
+
+                    <img src="{{:artisan.image}}" class="ui-block-a" />
+
+                    <div class="ui-block-b square-container">
+                        <div class="square-spacer"></div>
+                        <div class="square-content">
+                            <div class="stuff-name">{{:title}}</div>
                             <div class="stuff-artist">{{:artisan.name}}</div>
                             <div class="stuff-location artisanLocation">{{:artisan.location}}</div>
+                        </div>
                     </div>
+
                 </div>
-            </div>
+            </a>
 
         </script>
 
@@ -59,10 +66,9 @@
         <script src="js/vendor/jquery-1.10.2.min.js"></script>
         <script src="js/vendor/jquery.mobile-1.4.5.js"></script>
         <script src="js/vendor/modernizr-2.6.2.min.js"></script>
+
         <script src="js/vendor/jsrender.js"></script>
-
-        <script src="js/books.js" type="text/javascript"></script>
-
+        <script src="js/books.js"></script>
 
     </body>
 </html>
