@@ -11,7 +11,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no">
 
     <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
-
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/main.css">
 
@@ -19,35 +18,26 @@
     <link rel="stylesheet" href="css/jquery.mobile-1.4.5.css" />
 
     <link rel="stylesheet" href="css/demo.css">
-</head>
-<div class="ui-mobile">
-    <!--[if lt IE 7]>
-    <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
-    <![endif]-->
 
-    <div data-role="page">
-        <div id="result"  data-role="content" role="main">
-
-
-
-        </div>
-    </div>
-
-</div>
-
+    <script src="js/vendor/jquery-1.11.3.js"></script>
+    <script src="js/vendor/jquery.mobile-1.4.5.js"></script>
+    <script src="js/vendor/modernizr-2.6.2.min.js"></script>
+    <script src="js/vendor/jsrender.js"></script>
+    <script src="js/lesson.js"></script>
     <!-- the template -->
-<script id="lessonTmpl" type="text/x-jsrender">
+    <script id="lessonTmpl" type="text/x-jsrender">
 
 
-<form>
             <div class="ui-grid-a">
                 <img src="{{:book.primaryImage}}" class="ui-block-a" />
                 <div class="ui-block-b pl5">
                     <h3 class="pl0">{{:title}}</h3>
                     <p>{{:artisan.name}}</p>
-                    <p>￥{{:price}}</p>
+                    <p>￥<lable id="lablePrice">{{:price}}</lable></p>
                     <p>
-                        <input style="width:50px;" type="number" data-mini="true" data-clear-btn="true" name="number-4" pattern="[0-9]*" id="number-4" value="1">
+                        <button id="btnMinus">-</button>
+                        <input id="stepper" type="text" value="1" />
+                        <button id="btnPlus">+</button>
                     </p>
                 </div>
             </div>
@@ -65,24 +55,21 @@
                 </p>
             </div>
 
-            <div class="footer-xline"></div>
-
-            <div class="footer">
-
-                <a href="#summary">确定</a>
-
-            </div>
-</form>
-
-</script>
+            <button id="submit" type="submit">确定</a>
 
 
-    <script src="js/vendor/jquery-1.10.2.min.js"></script>
-    <script src="js/vendor/jquery.mobile-1.4.5.js"></script>
-    <script src="js/vendor/modernizr-2.6.2.min.js"></script>
+        </script>
 
-    <script src="js/vendor/jsrender.js"></script>
-    <script src="js/lesson.js"></script>
+</head>
+<body>
+<div class="ui-mobile">
+    <!--[if lt IE 7]>
+    <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+    <![endif]-->
 
-    </body>
+        <div id="result"  data-role="content" role="main"></div>
+
+
+</div>
+</body>
 </html>

@@ -234,6 +234,17 @@ a{
 	padding:10px;
 }
 
+/* stepper */
+#stepper {
+	width: 30px;
+}
+#btnMinus{
+	width: 25px;
+}
+#btnPlus{
+	width:25px;
+}
+
 /* --------------------------------------------------------------------------------------- */
 .footer-xline{
 	width:100%;
