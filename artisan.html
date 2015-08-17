@@ -19,47 +19,50 @@
     <link rel="stylesheet" href="css/jquery.mobile-1.4.5.css" />
 
     <link rel="stylesheet" href="css/demo.css">
+
+    <script src="js/vendor/jquery-1.11.3.js"></script>
+    <script src="js/vendor/jquery.mobile-1.4.5.js"></script>
+    <script src="js/vendor/modernizr-2.6.2.min.js"></script>
+
+    <script src="js/vendor/jsrender.js"></script>
+    <script src="js/artisan.js"></script>
+
+
+    <!-- the template -->
+    <script id="artisanTmpl" type="text/x-jsrender">
+
+        <div class="ui-grid-solo">
+            <img src="{{:images}}" class="ui-block-a" />
+            <h3>{{:name}}</h3>
+            <p>{{:city}}</p>
+            <p>{{:description}}</p>
+        </div>
+        <div class="ui-grid-a">
+
+            {^{for works}}
+                {{if #index%2==0 }}
+                    <img src="{{:image}}" class="ui-block-a" />
+                {{else}}
+                    <img src="{{:image}}" class="ui-block-b" />
+                {{/if}}
+            {{/for}}
+        </div>
+
+    </script>
+
 </head>
+<body>
 <div class="ui-mobile">
 <!--[if lt IE 7]>
 <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
 <![endif]-->
 
 <div data-role="page">
-    <div id="result"  data-role="content" role="main">
+    <div id="result" data-role="content" role="main">
 
     </div>
 </div>
 
-    <!-- the template -->
-<script id="artisanTmpl" type="text/x-jsrender">
-
-    <div class="ui-grid-solo">
-        <img src="{{:images}}" class="ui-block-a" />
-        <h3>{{:name}}</h3>
-        <p>{{:city}}</p>
-        <p>{{:description}}</p>
-    </div>
-    <div class="ui-grid-a">
-
-        {^{for works}}
-            {{if #index%2==0 }}
-                <img src="{{:image}}" class="ui-block-a" />
-            {{else}}
-                <img src="{{:image}}" class="ui-block-b" />
-            {{/if}}
-        {{/for}}
-    </div>
-
-</script>
-
-
-<script src="js/vendor/jquery-1.10.2.min.js"></script>
-<script src="js/vendor/jquery.mobile-1.4.5.js"></script>
-<script src="js/vendor/modernizr-2.6.2.min.js"></script>
-
-<script src="js/vendor/jsrender.js"></script>
-<script src="js/artisan.js"></script>
 
 </body>
 </html>
