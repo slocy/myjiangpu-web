@@ -44,20 +44,21 @@ Lesson.prototype = {
 
         $(document).on("tap","#minus", function(){
 
+            $("#qty").blur();
+            if(qty==2)
+            {
+                $("#minus").addClass("minus_disabled");
+            }
             if(qty>1)
             {
                 qty --;
                 $("#qty").val(qty);
                 $("#lablePrice").text(price * qty);
             }
-            else
-            {
-                $("#minus").addClass("minus_disabled");
-            }
-
         });
 
         $(document).on("tap","#plus", function(){
+            $("#qty").blur();
             qty ++;
 
             if(qty==2)
