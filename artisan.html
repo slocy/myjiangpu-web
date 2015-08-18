@@ -16,7 +16,7 @@
     <link rel="stylesheet" href="css/main.css">
 
     <!-- jquery mobile square UI -->
-    <link rel="stylesheet" href="css/jquery.mobile-1.4.5.css" />
+    <link rel="stylesheet" href="css/jquery.mobile-1.4.5.custom.css" />
 
     <link rel="stylesheet" href="css/demo.css">
 
@@ -38,7 +38,7 @@
             <p>{{:description}}</p>
         </div>
         <div class="ui-grid-a">
-
+            <h3>Ta的匠谱</h3>
             {^{for works}}
                 {{if #index%2==0 }}
                     <img src="{{:image}}" class="ui-block-a" />
@@ -63,6 +63,19 @@
     </div>
 </div>
 
+    <div class="footer-xline"></div>
+    <div class="footer">
+        <ul class="footer-menu">
+            <li class="half-button">
+                <a href="/" data-ajax="false">匠谱</a>
+            </li>
+            <li class="half-button">
+                <a href="usercenter.html" data-ajax="false">我</a>
+            </li>
+        </ul>
+    </div>
+
+</div>
 
 </body>
 </html>

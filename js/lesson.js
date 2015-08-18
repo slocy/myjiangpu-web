@@ -39,30 +39,35 @@ Lesson.prototype = {
 
 
         //stepper
-        var num = 1;
+        var qty = 1;
         var price = $("#lablePrice").html();
 
-        $(document).on("tap","#btnMinus", function(){
+        $(document).on("tap","#minus", function(){
 
-            if(num>1)
+            if(qty>1)
             {
-                num --;
-                $("#stepper").val(num);
-                $("#lablePrice").text(price * num);
+                qty --;
+                $("#qty").val(qty);
+                $("#lablePrice").text(price * qty);
+            }
+            else
+            {
+                $("#minus").addClass("minus_disabled");
             }
 
         });
 
-        $(document).on("tap","#btnPlus", function(){
-            num ++;
+        $(document).on("tap","#plus", function(){
+            qty ++;
 
-            if(num==2)
+            if(qty==2)
             {
                 price = $("#lablePrice").html();
+                $("#minus").removeClass("minus_disabled");
             }
 
-            $("#stepper").val(num);
-            $("#lablePrice").text(price * num);
+            $("#qty").val(qty);
+            $("#lablePrice").text(price * qty);
         });
 
 

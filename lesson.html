@@ -15,7 +15,7 @@
     <link rel="stylesheet" href="css/main.css">
 
     <!-- jquery mobile square UI -->
-    <link rel="stylesheet" href="css/jquery.mobile-1.4.5.css" />
+    <link rel="stylesheet" href="css/jquery.mobile-1.4.5.custom.css" />
 
     <link rel="stylesheet" href="css/demo.css">
 
@@ -29,37 +29,53 @@
     <script id="lessonTmpl" type="text/x-jsrender">
 
             <div class="ui-grid-a">
-                <img src="{{:book.primaryImage}}" class="ui-block-a" />
-                <div class="ui-block-b pl5">
-                    <h3 class="pl0">{{:title}}</h3>
-                    <p>{{:artisan.name}}</p>
-                    <p>￥<lable id="lablePrice">{{:price}}</lable></p>
-                    <div class="ui-grid-a">
-                        <div class="ui-block-a">
-                            <input id="stepper" type="text" value="1" />
-                        </div>
-                        <div class="ui-block-b">
-                            <button id="btnMinus">-</button>
-                            <button id="btnPlus">+</button>
+
+                    <img src="{{:artisan.image}}" class="ui-block-a" />
+
+                    <div class="ui-block-b square-container">
+                        <div class="square-spacer"></div>
+                        <div class="square-content">
+                            <div class="stuff-name">{{:title}}</div>
+                            <p class="f12">时间 {{:date}}</p>
+                            <p class="f12">￥{{:price}}/人</p>
+
+                            <div class="stepper">
+                                <span class="minus minus_disabled" id="minus"></span>
+                                <input class="qty ui-slider-input" id="qty" value="1">
+                                <span class="plus" id="plus"></span>
+                            </div>
+
+                            <div class="clearfix"></div>
+
+                            <div class="total-price">
+                                <span>合计 ￥</span><lable id="lablePrice">{{:price}}</lable>
+                            </div>
                         </div>
                     </div>
-                </div>
+
             </div>
+
             <div class="ui-grid-solo">
                 <h3>说明</h3>
                 <p>{{:comment}}</p>
-                <h3>您的手机号码</h3>
+                <h3>手机号码</h3>
                 <p>
                     <input type="text" id="#phone" />
                 </p>
 
                 <h3>留言</h3>
-                <p>
-                    <textarea rows="3" id="#leavemessage" />
-                </p>
+                <p><textarea rows="3" id="#leavemessage" /></p>
             </div>
 
-            <button id="submit" type="submit">确定</button>
+           <div class="footer-xline"></div>
+
+           <div class="footer">
+                <ul class="footer-menu">
+                    <li class="full-button">
+                        <a href="#" data-ajax="false">确定并支付</a>
+                    </li>
+                </ul>
+           </div>
 
     </script>
 
