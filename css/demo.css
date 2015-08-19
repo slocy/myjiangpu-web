@@ -320,6 +320,12 @@ textarea{
 	margin-left: -8px;
 }
 
+/* lesson page */
+#lessonResult #phone{
+	width: 94%;
+}
+
+
 /* --------------------------------------------------------------------------------------- */
 .footer-xline{
 	width:100%;

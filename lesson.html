@@ -13,20 +13,19 @@
     <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/main.css">
-
-    <!-- jquery mobile square UI -->
     <link rel="stylesheet" href="css/jquery.mobile-1.4.5.custom.css" />
-
     <link rel="stylesheet" href="css/demo.css">
 
     <script src="js/vendor/jquery-1.11.3.js"></script>
     <script src="js/vendor/jquery.mobile-1.4.5.js"></script>
     <script src="js/vendor/modernizr-2.6.2.min.js"></script>
+
     <script src="js/vendor/jsrender.js"></script>
     <script src="js/lesson.js"></script>
 
     <!-- the template -->
     <script id="lessonTmpl" type="text/x-jsrender">
+
 
             <div class="ui-grid-a">
 
@@ -36,7 +35,7 @@
                         <div class="square-spacer"></div>
                         <div class="square-content">
                             <div class="stuff-name">{{:title}}</div>
-                            <p class="f12">时间 {{:date}}</p>
+                            <p class="f12">开课时间 {{:date}}</p>
                             <p class="f12">￥{{:price}}/人</p>
 
                             <div class="stepper">
@@ -60,12 +59,16 @@
                 <p>{{:comment}}</p>
                 <h3>手机号码</h3>
                 <p>
-                    <input type="text" id="#phone" />
+                    <input type="text" id="phone" class="ui-input-text ui-shadow-inset ui-body-inherit ui-corner-all"/>
                 </p>
 
                 <h3>留言</h3>
-                <p><textarea rows="3" id="#leavemessage" /></p>
+                <p>
+                  <textarea id="leavemessage" rows="6" class="ui-input-text ui-shadow-inset ui-body-inherit ui-corner-all ui-textinput-autogrow"></textarea>
+                </p>
             </div>
+
+
 
            <div class="footer-xline"></div>
 
@@ -86,7 +89,7 @@
     <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
     <![endif]-->
 
-        <div id="result"  data-role="content" role="main"></div>
+        <div id="lessonResult" data-role="content" role="main"></div>
 
 </div>
 </body>

@@ -1,7 +1,8 @@
 
 
 var lesson;
-$(document).ready(function () {
+$(document).on("pageinit",function(){
+
     lesson = new Lesson();
     lesson.getData();
     lesson.bindEvent();
@@ -31,12 +32,12 @@ Lesson.prototype = {
     bindTemplate: function(data){
         var template = $.templates("#lessonTmpl");
         var htmlOutput = template.render(data);
-        $("#result").html(htmlOutput);
-
+        $("#lessonResult").html(htmlOutput);
     },
 
     bindEvent: function(){
 
+        $("#leavemessage").textinput();
 
         //stepper
         var qty = 1;

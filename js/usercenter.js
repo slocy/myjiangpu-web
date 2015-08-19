@@ -1,7 +1,8 @@
 
 
 var usercenter;
-$(document).ready(function () {
+$(document).on("pageinit",function(){
+
     usercenter = new UserCenter();
     usercenter.getData();
 

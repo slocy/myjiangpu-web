@@ -1,7 +1,8 @@
 
 
 var book;
-$(document).ready(function () {
+$(document).on("pageinit",function(){
+
     book = new Book();
     book.getData();
 
