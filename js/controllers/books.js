@@ -13,7 +13,8 @@ Books.prototype = {
     getData: function () {
 
         $.ajax({
-            url: "/books.json",
+            url: "http://wx-api.slocy.cn/book/get",
+            method:"GET",
             cache: false,
             success: function (data) {
                 if (data != "") {

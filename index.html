@@ -23,28 +23,28 @@
         <script src="js/vendor/jquery.mobile-1.4.5.js"></script>
         <script src="js/vendor/modernizr-2.6.2.min.js"></script>
 
-        <script src="js/books.js"></script>
+        <script src="js/controllers/books.js"></script>
 
         <!-- the template -->
         <script id="booksTmpl" type="text/x-jsrender">
 
             <a href="/book.html" data-transition="fade" data-ajax="false">
             <div class="ui-grid-solo">
-                    <img src="{{:image}}" class="ui-block-a" />
+                    <img src="{{:PrimaryImage}}" class="ui-block-a" />
             </div>
             </a>
 
             <a href="artisan.html" data-ajax="false">
                 <div class="ui-grid-a">
 
-                    <img src="{{:artisan.image}}" class="ui-block-a" />
+                    <img src="{{:PrimaryImage}}" class="ui-block-a" />
 
                     <div class="ui-block-b square-container">
                         <div class="square-spacer"></div>
                         <div class="square-content">
-                            <div class="stuff-name">{{:title}}</div>
-                            <div class="stuff-artist">{{:artisan.name}}</div>
-                            <div class="stuff-location artisanLocation">{{:artisan.location}}</div>
+                            <div class="stuff-name">{{:Title}}</div>
+                            <div class="stuff-artist">{{:Artisan.Name}}</div>
+                            <div class="stuff-location artisanLocation">{{:Artisan.City}}.{{:Artisan.StudioName}}</div>
                         </div>
                     </div>
 
