@@ -25,25 +25,25 @@
     <script src="js/vendor/jquery.mobile-1.4.5.js"></script>
     <script src="js/vendor/modernizr-2.6.2.min.js"></script>
 
-    <script src="js/artisan.js"></script>
+    <script src="js/controllers/artisan.js"></script>
 
 
     <!-- the template -->
     <script id="artisanTmpl" type="text/x-jsrender">
 
         <div class="ui-grid-solo">
-            <img src="{{:images}}" class="ui-block-a" />
-            <h3>{{:name}}</h3>
-            <p>{{:city}}</p>
-            <p>{{:description}}</p>
+            <img src="http://wx-api.slocy.cn/media/get/{{:ArtisanId}}" class="ui-block-a" />
+            <h3>{{:Name}}</h3>
+            <p>{{:City}}.{{:StudioName}}</p>
+            <p>{{:Description}}</p>
         </div>
         <div class="ui-grid-a">
             <h3>Ta的匠谱</h3>
-            {^{for works}}
+            {^{for Books}}
                 {{if #index%2==0 }}
-                    <img src="{{:image}}" class="ui-block-a" />
+                    <img src="{{:PrimaryImage}}" class="ui-block-a" />
                 {{else}}
-                    <img src="{{:image}}" class="ui-block-b" />
+                    <img src="{{:PrimaryImage}}" class="ui-block-b" />
                 {{/if}}
             {{/for}}
         </div>

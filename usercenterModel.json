@@ -1,11 +1,12 @@
 {
-  "artisanId":"1",
-  "name":"茹茹萍",
-  "fullName":"茹茹萍",
-  "wechatId":"ruruping",
-  "cellphone":"",
-  "description":"",
-  "image":"img/artisan/ruping2.jpg",
-  "city":"厦门·一朵植物美学实验室",
-  "address":""
+  "ArtisanId":"1",
+  "Name":"茹茹萍",
+  "FullName":"茹茹萍",
+  "WechatId":"",
+  "Cellphone":"",
+  "Description":"",
+  "Image":"img/artisan/ruping2.jpg",
+  "City":"厦门",
+  "StudioName":"一朵植物美学实验室",
+  "Address":""
 }

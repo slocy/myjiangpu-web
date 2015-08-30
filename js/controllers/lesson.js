@@ -14,7 +14,7 @@ Lesson.prototype = {
     getData: function () {
 
         $.ajax({
-            url: "/lessonModel.json",
+            url: "http://wx-api.slocy.cn/lesson/get/375",
             cache: false,
             success: function (data) {
                 if (data != "") {

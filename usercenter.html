@@ -25,19 +25,19 @@
     <script src="js/vendor/modernizr-2.6.2.min.js"></script>
 
     <script src="js/vendor/jsrender.js"></script>
-    <script src="js/usercenter.js"></script>
+    <script src="js/controllers/usercenter.js"></script>
 
 
     <!-- the template -->
     <script id="usercenterTmpl" type="text/x-jsrender">
 
         <div class="ui-grid-a">
-                <img src="{{:image}}" class="ui-block-a" />
+                <img src="{{:Image}}" class="ui-block-a" />
                 <div class="ui-block-b square-container">
                     <div class="square-spacer"></div>
                     <div class="square-content">
-                        <div class="stuff-artist">{{:name}}</div>
-                        <div class="stuff-location artisanLocation">{{:city}}</div>
+                        <div class="stuff-artist">{{:Name}}</div>
+                        <div class="stuff-location artisanLocation">{{:City}}.{{:StudioName}}</div>
                     </div>
                 </div>
         </div>

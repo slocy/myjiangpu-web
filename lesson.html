@@ -20,7 +20,7 @@
     <script src="js/vendor/jsrender.js"></script>
     <script src="js/vendor/jquery.mobile-1.4.5.js"></script>
     <script src="js/vendor/modernizr-2.6.2.min.js"></script>
-    <script src="js/lesson.js"></script>
+    <script src="js/controllers/lesson.js"></script>
 
     <!-- the template -->
     <script id="lessonTmpl" type="text/x-jsrender">
@@ -28,14 +28,14 @@
 
             <div class="ui-grid-a">
 
-                    <img src="{{:artisan.image}}" class="ui-block-a" />
+                    <img src="{{:Artisan.Image}}" class="ui-block-a" />
 
                     <div class="ui-block-b square-container">
                         <div class="square-spacer"></div>
                         <div class="square-content">
-                            <div class="stuff-name">{{:title}}</div>
-                            <p class="f12">开课时间 {{:date}}</p>
-                            <p class="f12">￥{{:price}}/人</p>
+                            <div class="stuff-name">{{:Title}}</div>
+                            <p class="f12">开课时间 {{:Date}}</p>
+                            <p class="f12">￥{{:Price}}/人</p>
 
                             <div class="stepper">
                                 <span class="minus minus_disabled" id="minus"></span>
@@ -46,7 +46,7 @@
                             <div class="clearfix"></div>
 
                             <div class="total-price">
-                                <span>合计 ￥</span><lable id="lablePrice">{{:price}}</lable>
+                                <span>合计 ￥</span><lable id="lablePrice">{{:Price}}</lable>
                             </div>
                         </div>
                     </div>
@@ -55,7 +55,7 @@
 
             <div class="ui-grid-solo">
                 <h3>说明</h3>
-                <p>{{:comment}}</p>
+                <p>{{:Comment}}</p>
                 <h3>手机号码</h3>
                 <p>
                     <input type="text" id="phone" class="ui-input-text ui-body-inherit"/>

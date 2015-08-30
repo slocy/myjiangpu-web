@@ -6,7 +6,8 @@
     "artisan":{
       "name":"茹茹萍",
       "image":"img/artisan/ruping2.jpg",
-      "location":"厦门·一朵植物美学实验室"
+      "city":"厦门",
+      "studioName":"一朵植物美学实验室"
     }
   },
   {
@@ -16,7 +17,8 @@
     "artisan":{
       "name":"茹茹萍",
       "image":"img/artisan/ruping2.jpg",
-      "location":"厦门·一朵植物美学实验室"
+      "city":"厦门",
+      "studioName":"一朵植物美学实验室"
     }
   }
 ]

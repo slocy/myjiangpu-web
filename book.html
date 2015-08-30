@@ -25,7 +25,7 @@
     <script src="js/vendor/jquery.mobile-1.4.5.js"></script>
     <script src="js/vendor/modernizr-2.6.2.min.js"></script>
 
-    <script src="js/book.js"></script>
+    <script src="js/controllers/book.js"></script>
 
 
 
@@ -34,27 +34,27 @@
 
 
 
-        <h1>{{:title}}</h1>
+        <h1>{{:Title}}</h1>
 
         <div class="stuff-desc">
             <p>
-                {{:description}}
+                {{:Description}}
             </p>
         </div>
 
         <div class="ui-grid-solo">
-            <img src="{{:primaryImage}}" class="ui-block-a" />
+            <img src="{{:PrimaryImage}}" class="ui-block-a" />
         </div>
 
 
         <a href="artisan.html" data-ajax="false">
             <div class="ui-grid-a">
-                <img src="{{:artisan.image}}" class="ui-block-a" />
+                <img src="{{:Artisan.Image}}" class="ui-block-a" />
                 <div class="ui-block-b square-container">
                     <div class="square-spacer"></div>
                     <div class="square-content">
-                        <div class="stuff-artist">{{:artisan.name}}</div>
-                        <div class="stuff-location artisanLocation">{{:artisan.city}}</div>
+                        <div class="stuff-artist">{{:Artisan.Name}}</div>
+                        <div class="stuff-location artisanLocation">{{:Artisan.City}}.{{:Artisan.StudioName}}</div>
                     </div>
                 </div>
             </div>
@@ -63,25 +63,25 @@
         <div class="ui-grid-solo">
             <h1>材料</h1>
             <p class="ui-block-a">
-                {{:stuff.description}}
+                {{:Stuffs.Description}}
             </p>
-            <img src="{{:stuff.image}}" class="ui-block-a" />
+            <img src="{{:Stuff.Image}}" class="ui-block-a" />
         </div>
 
         <ul class="ui-grid-solo">
             <h1>工具</h1>
             <p class="ui-block-a">
-                {{:utility.description}}
+                {{:Utilities.Description}}
             </p>
-            <img src="{{:utility.image}}" class="ui-block-a" />
+            <img src="{{:Utilities.Image}}" class="ui-block-a" />
         </ul>
 
         <div class="ui-grid-solo">
             <h1>步骤</h1>
             {^{for steps}}
-                <img src="{{:images}}" class="ui-block-a" />
-                <h3>步骤 {{:sortNum}}</h3>
-                <p>{{:description}}</p>
+                <img src="{{:Steps.Images}}" class="ui-block-a" />
+                <h3>{{:Name}}</h3>
+                <p>{{:Content}}</p>
 
             {{/for}}
         </div>
