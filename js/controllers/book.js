@@ -13,7 +13,7 @@ Book.prototype = {
     getData: function () {
 
         $.ajax({
-            url: "http://wx-api.slocy.cn/book/get/18",
+            url: "http://wx-api.slocy.cn/book/get/35",
             cache: false,
             success: function (data) {
                 if (data != "") {

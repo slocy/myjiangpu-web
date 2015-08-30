@@ -24,6 +24,7 @@ textarea{
 .ui-content{
     padding:0;
     text-shadow:none;
+	margin-bottom: 45px;
 }
 .ui-page {
     backface-visibility: hidden;
