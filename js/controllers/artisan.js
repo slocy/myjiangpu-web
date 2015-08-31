@@ -1,7 +1,9 @@
-
-
 var artisan;
-$(document).ready(function () {
+var artisanId;
+$(document).on("pageinit",function(){
+
+    artisanId = $.query.get('artisanId');
+
     artisan = new Artisan();
     artisan.getData();
 
@@ -12,7 +14,7 @@ Artisan.prototype = {
     getData: function () {
 
         $.ajax({
-            url: "http://wx-api.slocy.cn/artisan/get/1",
+            url: "http://wx-api.slocy.cn/artisan/get/"+artisanId,
             cache: false,
             success: function (data) {
                 if (data != "") {

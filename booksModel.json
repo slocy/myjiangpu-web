@@ -1,0 +1,44 @@
+// 20150831185625
+// http://wx-api.slocy.cn/book/get
+
+
+[
+
+  {
+    "BookId": 35,
+    "Title": "蔷薇胸花",
+    "SubTitle": "来自茹萍的胸针设计",
+    "StuffInfo": "干燥植物：黄蔷薇（1）、银叶菊（1）、冬菇草（3～5）、珊瑚果（2）<br/>其他工具：胸针（1）、草绳、剪刀、热熔胶枪",
+    "Description": "自然风干的蔷薇和银叶菊，嵌有星星点点的冬菇草，跟着匠谱，你手中的植物就会有新的可能。如果你在夏天喜欢穿浅色裙子，那你需要这样一枚胸针。",
+    "ArtisanId": 1,
+    "IsHidden": false,
+    "PrimaryImage": "http://wx-ast.slocy.cn/image/book/adore-xiongzhen/primary.jpg",
+    "PrimaryVideo": "",
+    "CreateDate": "2015-08-30T16:03:57.187",
+    "UpdateBy": null,
+    "UpdateDate": "2015-08-30T16:03:57.187",
+    "CreateBy": null,
+    "Artisan":
+    {
+      "ArtisanId": 1,
+      "Name": "茹茹萍",
+      "FullName": "陈茹萍",
+      "StudioName": "一朵工作室",
+      "WechatId": null,
+      "Cellphone": "",
+      "Description": "毕业于中央美术学院，捣腾在植物与手工之间，坚持做喜欢的事情，努力让喜欢的事情有价值。",
+      "City": "厦门",
+      "Address": "厦门市思明区旧物仓",
+      "CreateDate": "0001-01-01T00:00:00",
+      "CreateBy": null,
+      "UpdateDate": "0001-01-01T00:00:00",
+      "UpdateBy": null,
+      "Books": null
+    },
+    "Steps": null,
+    "Stuffs": null,
+    "Utilities": null,
+    "Images": null,
+    "Videos": null
+  }
+]

@@ -13,7 +13,7 @@ UserCenter.prototype = {
     getData: function () {
 
         $.ajax({
-            url: "/usercenterModel.json",
+            url: "http://wx-api.slocy.cn/artisan/get/1",
             cache: false,
             success: function (data) {
                 if (data != "") {

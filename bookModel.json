@@ -1,0 +1,222 @@
+// 20150831185722
+// http://wx-api.slocy.cn/book/get/35
+
+
+{
+  "BookId": 35,
+  "Title": "蔷薇胸花",
+  "SubTitle": "来自茹萍的胸针设计",
+  "StuffInfo": "干燥植物：黄蔷薇（1）、银叶菊（1）、冬菇草（3～5）、珊瑚果（2）<br/>其他工具：胸针（1）、草绳、剪刀、热熔胶枪",
+  "Description": "自然风干的蔷薇和银叶菊，嵌有星星点点的冬菇草，跟着匠谱，你手中的植物就会有新的可能。如果你在夏天喜欢穿浅色裙子，那你需要这样一枚胸针。",
+  "ArtisanId": 1,
+  "IsHidden": false,
+  "PrimaryImage": "http://wx-ast.slocy.cn/image/book/adore-xiongzhen/primary.jpg",
+  "PrimaryVideo": "",
+  "CreateDate": "0001-01-01T00:00:00",
+  "UpdateBy": null,
+  "UpdateDate": "0001-01-01T00:00:00",
+  "CreateBy": null,
+  "Artisan":
+  {
+    "ArtisanId": 1,
+    "Name": "茹茹萍",
+    "FullName": "陈茹萍",
+    "StudioName": "一朵工作室",
+    "WechatId": null,
+    "Cellphone": "",
+    "Description": "毕业于中央美术学院，捣腾在植物与手工之间，坚持做喜欢的事情，努力让喜欢的事情有价值。",
+    "City": "厦门",
+    "Address": "厦门市思明区旧物仓",
+    "CreateDate": "0001-01-01T00:00:00",
+    "CreateBy": null,
+    "UpdateDate": "0001-01-01T00:00:00",
+    "UpdateBy": null,
+    "Books": null
+  },
+  "Steps":
+  [
+
+    {
+      "BookStepId": 69,
+      "Name": "步骤一",
+      "BookId": 35,
+      "Content": "以银叶菊为底，挑选三五根冬菇草，具体可根据银叶菊的大小选择合适的冬菇草数量，以视觉舒适为佳。",
+      "CreateDate": "0001-01-01T00:00:00",
+      "CreateBy": null,
+      "UpdateDate": "0001-01-01T00:00:00",
+      "UpdateBy": null,
+      "Book": null
+    },
+
+    {
+      "BookStepId": 103,
+      "Name": "步骤二",
+      "BookId": 35,
+      "Content": "将挑好的冬菇草长度剪至与银叶菊等齐。整个手作过程的剪枝都尽量遵循宁长勿短原则，毕竟长了我们最后可以剪，短了很可能会要损失一枝花材。",
+      "CreateDate": "0001-01-01T00:00:00",
+      "CreateBy": null,
+      "UpdateDate": "0001-01-01T00:00:00",
+      "UpdateBy": null,
+      "Book": null
+    },
+
+    {
+      "BookStepId": 137,
+      "Name": "步骤三",
+      "BookId": 35,
+      "Content": "开始加入黄蔷薇，根据黄蔷薇的大小和银叶菊的关系，调整冬菇草的位置，避免多根配草一个高度，尽量达到高低不一错落有致的搭配效果。",
+      "CreateDate": "0001-01-01T00:00:00",
+      "CreateBy": null,
+      "UpdateDate": "0001-01-01T00:00:00",
+      "UpdateBy": null,
+      "Book": null
+    },
+
+    {
+      "BookStepId": 171,
+      "Name": "步骤四",
+      "BookId": 35,
+      "Content": "加入珊瑚果。配草的选择要注意形状与颜色在整个花束中的搭配程度。这里选择圆形灰色的珊瑚果，一是因为珊瑚果可爱的圆形可以和另一配草“冬菇草”形成呼应，二来淡雅的灰色珊瑚果有符合整个胸针的基调，不至于颜色过于鲜艳，影响黄蔷薇的主体视觉效果。",
+      "CreateDate": "0001-01-01T00:00:00",
+      "CreateBy": null,
+      "UpdateDate": "0001-01-01T00:00:00",
+      "UpdateBy": null,
+      "Book": null
+    },
+
+    {
+      "BookStepId": 205,
+      "Name": "步骤五",
+      "BookId": 35,
+      "Content": "左手拇指与食指紧握花束，无名指与中指夹住草绳一端，右手握住草绳另一端，绕花束大概三圈，每绕一圈均要用力缠紧加固再绕下一圈。",
+      "CreateDate": "0001-01-01T00:00:00",
+      "CreateBy": null,
+      "UpdateDate": "0001-01-01T00:00:00",
+      "UpdateBy": null,
+      "Book": null
+    },
+
+    {
+      "BookStepId": 239,
+      "Name": "步骤六",
+      "BookId": 35,
+      "Content": "然后在花束背面将草绳打结，可以选择蝴蝶结或其他样式的打结方式，但是考虑到花束与胸针的粘合度，建议尽量选择像“死结”这种牢固又简单的打结方式。",
+      "CreateDate": "0001-01-01T00:00:00",
+      "CreateBy": null,
+      "UpdateDate": "0001-01-01T00:00:00",
+      "UpdateBy": null,
+      "Book": null
+    },
+
+    {
+      "BookStepId": 273,
+      "Name": "步骤七",
+      "BookId": 35,
+      "Content": "找好胸针与花束的位置。建议尽量让胸针（金属部分）处于花束的中部偏上，尤其是较大的花束。防止佩戴时胸花头重脚轻左右摇晃。",
+      "CreateDate": "0001-01-01T00:00:00",
+      "CreateBy": null,
+      "UpdateDate": "0001-01-01T00:00:00",
+      "UpdateBy": null,
+      "Book": null
+    },
+
+    {
+      "BookStepId": 307,
+      "Name": "步骤八",
+      "BookId": 35,
+      "Content": "在确定好的大概胸针位置挤上热熔胶，粘上胸针，稍微按住五秒左右。",
+      "CreateDate": "0001-01-01T00:00:00",
+      "CreateBy": null,
+      "UpdateDate": "0001-01-01T00:00:00",
+      "UpdateBy": null,
+      "Book": null
+    },
+
+    {
+      "BookStepId": 341,
+      "Name": "步骤九",
+      "BookId": 35,
+      "Content": "从多个角度（主要是正面）观察胸花，将多余的草绳、花材枝干、胸针延长部分剪掉。",
+      "CreateDate": "0001-01-01T00:00:00",
+      "CreateBy": null,
+      "UpdateDate": "0001-01-01T00:00:00",
+      "UpdateBy": null,
+      "Book": null
+    },
+
+    {
+      "BookStepId": 375,
+      "Name": "步骤十",
+      "BookId": 35,
+      "Content": "黄蔷薇胸花完成。",
+      "CreateDate": "0001-01-01T00:00:00",
+      "CreateBy": null,
+      "UpdateDate": "0001-01-01T00:00:00",
+      "UpdateBy": null,
+      "Book": null
+    }
+  ],
+  "Stuffs":
+  [
+
+    {
+      "StuffId": 426,
+      "Title": "蔷薇胸花-材料包",
+      "Description": "干燥植物：黄蔷薇（1）、银叶菊（1）、冬菇草（3～5）、珊瑚果（2）。其他工具：胸针（1）、草绳、剪刀、热熔胶枪",
+      "LessonId": 0,
+      "BookId": 35,
+      "ArtisanId": 1,
+      "Price": 35.0000,
+      "CreateDate": "0001-01-01T00:00:00",
+      "UpdateDate": "0001-01-01T00:00:00",
+      "UpdateBy": null,
+      "CreateBy": null,
+      "Lesson": null,
+      "Book": null,
+      "Artisan": null
+    }
+  ],
+  "Utilities":
+  [
+
+    {
+      "UtilityId": 443,
+      "Name": "蔷薇胸花-工具包",
+      "Description": "胸针（1）、草绳、剪刀、热熔胶枪",
+      "BookId": 35,
+      "ArtisanId": 1,
+      "LessonId": 0,
+      "Price": 15.0000,
+      "CreateDate": "0001-01-01T00:00:00",
+      "CreateBy": null,
+      "UpdateDate": "0001-01-01T00:00:00",
+      "UpdateBy": null,
+      "Book": null,
+      "Artisan": null,
+      "Lesson": null
+    }
+  ],
+  "Images":
+  [
+
+    {
+      "MediaFileId": 52,
+      "ParentId": 35,
+      "Type": "IMAGE",
+      "Mode": "NORMAL",
+      "Class": "BOOK",
+      "Host": "http://wx-ast.slocy.cn",
+      "Url": "/image/book/adore-xiongzhen/primary.jpg",
+      "Dimension_X": 0,
+      "Dimension_Y": 0,
+      "Capacity": 0,
+      "ElapseTime": 0,
+      "Reference": null,
+      "CreateDate": "2015-08-30T16:03:57.187",
+      "CreateBy": "API",
+      "UpdateDate": "2015-08-30T16:03:57.187",
+      "UpdateBy": "API"
+    }
+  ],
+  "Videos": null
+}

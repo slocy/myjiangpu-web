@@ -24,6 +24,7 @@
     <script src="js/vendor/jsrender.js"></script>
     <script src="js/vendor/jquery.mobile-1.4.5.js"></script>
     <script src="js/vendor/modernizr-2.6.2.min.js"></script>
+    <script src="js/vendor/jquery.query-2.1.7.js"></script>
 
     <script src="js/controllers/artisan.js"></script>
 
@@ -34,7 +35,7 @@
         <div class="ui-grid-solo">
             <img src="http://wx-api.slocy.cn/media/get/{{:ArtisanId}}" class="ui-block-a" />
             <h3>{{:Name}}</h3>
-            <p>{{:City}}&#149;{{:StudioName}}</p>
+            <p>{{:City}}<span> &#149; </span>{{:StudioName}}</p>
             <p>{{:Description}}</p>
         </div>
         <div class="ui-grid-a">

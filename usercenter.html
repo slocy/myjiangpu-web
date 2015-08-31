@@ -32,12 +32,12 @@
     <script id="usercenterTmpl" type="text/x-jsrender">
 
         <div class="ui-grid-a">
-                <img src="{{:Image}}" class="ui-block-a" />
+                <img src="http://wx-api.slocy.cn/media/get/{{:ArtisanId}}" class="ui-block-a" />
                 <div class="ui-block-b square-container">
                     <div class="square-spacer"></div>
                     <div class="square-content">
                         <div class="stuff-artist">{{:Name}}</div>
-                        <div class="stuff-location artisanLocation">{{:City}}.{{:StudioName}}</div>
+                        <div class="stuff-location artisanLocation">{{:City}}<span> &#149; </span> {{:StudioName}}</div>
                     </div>
                 </div>
         </div>

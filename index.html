@@ -34,7 +34,7 @@
             </div>
             </a>
 
-            <a href="artisan.html" data-ajax="false">
+            <a href="artisan.html?artisanId={{:Artisan.ArtisanId}}" data-ajax="false">
                 <div class="ui-grid-a">
 
                     <img src="http://wx-api.slocy.cn/media/get/{{:Artisan.ArtisanId}}" class="ui-block-a" />
@@ -44,7 +44,7 @@
                         <div class="square-content">
                             <div class="stuff-name">{{:Title}}</div>
                             <div class="stuff-artist">{{:Artisan.Name}}</div>
-                            <div class="stuff-location artisanLocation">{{:Artisan.City}}&#149;{{:Artisan.StudioName}}</div>
+                            <div class="stuff-location artisanLocation">{{:Artisan.City}}<span> &#149; </span>{{:Artisan.StudioName}}</div>
                         </div>
                     </div>
 

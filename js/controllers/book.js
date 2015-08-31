@@ -1,7 +1,11 @@
 
 
 var book;
+var artisanId;
 $(document).on("pageinit",function(){
+
+
+
 
     book = new Book();
     book.getData();

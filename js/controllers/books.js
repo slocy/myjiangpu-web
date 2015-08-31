@@ -1,11 +1,13 @@
 
 
 var books;
+
 $(document).on("pageinit",function(){
 
     books = new Books();
     books.getData();
     books.bindEvent();
+
 });
 
 function Books (){}
