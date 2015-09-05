@@ -4,11 +4,12 @@ var lesson;
 $(document).on("pageinit",function(){
 
 
-    window.location.href="https://open.weixin.qq.com/connect/oauth2/authorize?appid=wxdebf3e2511cf03f7&redirect_uri=http%3A%2F%2Fwx.slocy.cn&response_type=code&scope=snsapi_userinfo&state=STATE#wechat_redirect";
+    window.location.href="https://open.weixin.qq.com/connect/oauth2/authorize?appid=wxdebf3e2511cf03f7&redirect_uri=http%3A%2F%2Fwx.slocy.cn%2Flesson.html&response_type=code&scope=snsapi_userinfo&state=STATE#wechat_redirect";
 
     var code = $.query.get('code');
+    var openid = $.query.get('openid');
 
-    alert(code);
+    alert(code + openid);
 
     lesson = new Lesson();
     lesson.getData();
