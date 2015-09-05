@@ -5,8 +5,6 @@ var artisanId;
 $(document).on("pageinit",function(){
 
 
-
-
     book = new Book();
     book.getData();
 
@@ -29,6 +27,9 @@ Book.prototype = {
 
             }
         })
+
+    },
+    bindEvent:function(){
 
     },
 
