@@ -2588,6 +2588,9 @@ li.ui-block-e {
 	margin-right: .3125em;
 	margin-left: .3125em;
 }
+[class*="ui-block-"] > img{
+	width: 100%;
+}
 .ui-grid-a > .ui-block-a,
 .ui-grid-a > .ui-block-b {
 	/* width: 49.95%; IE7 */
