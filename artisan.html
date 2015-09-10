@@ -41,10 +41,14 @@
         <div class="ui-grid-a">
             <h3>Ta的匠谱</h3>
             {^{for Books}}
-                {{if #index%2==0 }}
-                    <img src="{{:PrimaryImage}}" class="ui-block-a" />
+                {{if #index%2 == 0 }}
+                    <a href="book.html?bookid={{:BookId}}" class="ui-block-a" data-ajax="false">
+                        <img src="{{:PrimaryImage}}" />
+                    </a>
                 {{else}}
-                    <img src="{{:PrimaryImage}}" class="ui-block-b" />
+                    <a href="book.html?bookid={{:BookId}}" class="ui-block-b" data-ajax="false">
+                        <img src="{{:PrimaryImage}}" />
+                    </a>
                 {{/if}}
             {{/for}}
         </div>

@@ -33,7 +33,7 @@
         <!-- the template -->
         <script id="booksTmpl" type="text/x-jsrender">
 
-            <a href="/book.html" data-transition="fade" data-ajax="false">
+            <a href="/book.html?bookid={{:BookId}}" data-transition="fade" data-ajax="false">
             <div class="ui-grid-solo">
                     <img src="{{:PrimaryImage}}" class="ui-block-a" />
             </div>
@@ -69,6 +69,8 @@
 
             </div>
 
+            <div id="userinfo"></div>
+            <button id="code">getinfo</button>
 
             <div class="footer-xline"></div>
             <div class="footer">

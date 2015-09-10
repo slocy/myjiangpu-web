@@ -1,21 +1,23 @@
 
 
 var book;
+var bookId;
 var artisanId;
 $(document).on("pageinit",function(){
 
+    bookId = $.query.get("bookid");
 
     book = new Book();
-    book.getData();
+    book.getData(bookId);
 
 });
 
 function Book (){}
 Book.prototype = {
-    getData: function () {
+    getData: function (bookId) {
 
         $.ajax({
-            url: "http://wx-api.slocy.cn/book/get/35",
+            url: "http://wx-api.slocy.cn/book/get/"+bookId,
             cache: false,
             success: function (data) {
                 if (data != "") {
