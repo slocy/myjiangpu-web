@@ -24,37 +24,6 @@
     <script src="js/vendor/jquery.mobile-1.4.5.js"></script>
     <script src="js/vendor/modernizr-2.6.2.min.js"></script>
 
-    <script src="js/vendor/jsrender.js"></script>
-    <script src="js/controllers/usercenter.js"></script>
-
-
-    <!-- the template -->
-    <script id="usercenterTmpl" type="text/x-jsrender">
-
-        <div class="ui-grid-a">
-                <img src="http://wx-api.slocy.cn/media/get/{{:ArtisanId}}" class="ui-block-a" />
-                <div class="ui-block-b square-container">
-                    <div class="square-spacer"></div>
-                    <div class="square-content">
-                        <div class="stuff-artist">{{:Name}}</div>
-                        <div class="stuff-location artisanLocation">{{:City}}<span> &#149; </span> {{:StudioName}}</div>
-                    </div>
-                </div>
-        </div>
-        <div class="ui-grid-solo">
-
-            <!-- 匠人 需判断用户是否匠人-->
-            <h3>可提现金额：￥xxx</h3>
-            <h3>我的课约</h3>
-
-            <!-- 普通用户-->
-            <h3>我的约课</h3>
-
-            <!--<h3>发布匠谱</h3>-->
-            <h3>个人资料设置</h3>
-            <h3><a href="about.html">关于匠谱</a></h3>
-        </div>
-    </script>
 
 </head>
 <body>
@@ -65,7 +34,17 @@
 
     <div data-role="page">
         <div id="result" data-role="content" role="main">
+            <div class="ui-grid-solo">
+                    <h3>关于匠谱</h3>
+                    <p>匠谱，和你一起追寻造物的喜悦。</p>
 
+                    <p>乍看造物二字，看似高高在上。可再想，你可能做过陀螺，织过围巾，折过纸鹤……这不是造物吗？不就是把心中的念想变成可以触摸的喜悦吗？</p>
+
+                    <p>匠谱是一个学习，创作和分享的造物者社区。在这里，大家一起动脑，动手，并且动心地表达念想。给对自己，送朋友，给家人，致爱人，都是极好的礼物！</p>
+
+                    <p>p你可以看匠谱自学创作，也可以约匠人指导定制，更可以分享你的作品，还可以申请成为匠人开课收徒。怎么玩，你决定。</p>
+
+            </div>
         </div>
     </div>
 

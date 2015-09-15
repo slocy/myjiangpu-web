@@ -28,7 +28,21 @@ Book.prototype = {
             error: function () {
 
             }
-        })
+        });
+
+        $.ajax({
+            url: "http://wx-api.slocy.cn/lesson/getbybook/"+bookId,
+            cache: false,
+            success: function (data) {
+                if (data != "") {
+
+                }
+            },
+            error: function () {
+
+            }
+        });
+
 
     },
     bindEvent:function(){
