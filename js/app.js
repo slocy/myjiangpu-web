@@ -9,7 +9,7 @@ angular.module('jpRoute',['ngRoute']).config(['$routeProvider',
         function($routeProvider) {
             $routeProvider.
                 when('/books', {
-                    templateUrl: '../index.html',
+                    templateUrl: '../Index.html',
                     controller: 'BooksController'
                 }).
                 when('/book/:bookId',{
