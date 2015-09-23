@@ -3,12 +3,9 @@
 var lesson;
 $(document).on("pageinit",function(){
 
-
-
         lesson = new Lesson();
         lesson.getData();
         lesson.bindEvent();
-
 
 });
 
@@ -44,7 +41,7 @@ Lesson.prototype = {
 
         //stepper
         var qty = 1;
-        var price = $("#lablePrice").html();
+        var price = $("#labelPrice").html();
 
         $(document).on("tap","#minus", function(){
 
@@ -57,7 +54,7 @@ Lesson.prototype = {
             {
                 qty --;
                 $("#qty").val(qty);
-                $("#lablePrice").text(price * qty);
+                $("#labelPrice").text(price * qty);
             }
         });
 
@@ -67,12 +64,12 @@ Lesson.prototype = {
 
             if(qty==2)
             {
-                price = $("#lablePrice").html();
+                price = $("#labelPrice").html();
                 $("#minus").removeClass("minus_disabled");
             }
 
             $("#qty").val(qty);
-            $("#lablePrice").text(price * qty);
+            $("#labelPrice").text(price * qty);
         });
 
 

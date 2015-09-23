@@ -46,10 +46,7 @@
                                 <span class="plus" id="plus"></span>
                             </div>
 
-                            <div class="clearfix" />
-                            <div class="total-price">
-                                <span>合计 ￥</span><lable id="lablePrice">{{:Price}}</lable>
-                            </div>
+
                         </div>
                     </div>
             </div>
@@ -76,7 +73,10 @@
 
            <div class="footer">
                 <ul class="footer-menu">
-                    <li class="full-button">
+                    <li class="half-button textblock">
+                        ￥<span id="labelPrice">{{:Price}}</span>
+                    </li>
+                    <li class="half-button">
                         <a href="#" data-ajax="false">确定并支付</a>
                     </li>
                 </ul>
