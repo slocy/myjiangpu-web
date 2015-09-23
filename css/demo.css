@@ -13,7 +13,6 @@ body{
 
 a{
 	text-decoration: none;
-	color: #bbbbbb !important;
 }
 
 textarea{
@@ -380,9 +379,15 @@ textarea{
 	text-align: center;
 	background-color: #333;
 }
-.footer > .footer-menu .half-button:first-child{
-	border-right: solid #7d7d7d 1px;
+
+
+.footer > .footer-menu a{
+	color: #bbbbbb;
 }
+
+/*.footer > .footer-menu .half-button:first-child{*/
+	/*border-right: solid #7d7d7d 1px;*/
+/*}*/
 .footer > .footer-menu .textblock{
 	background-color: #ccc;
 	color: #333;
@@ -391,9 +396,9 @@ textarea{
 .footer > .footer-menu .textblock >span {
 	color: #333;
 }
-.footer > .footer-menu .half-button:last-child{
-	margin-right:-1px;
-}
+/*.footer > .footer-menu .half-button:last-child{*/
+	/*margin-right:-1px;*/
+/*}*/
 
 
 
