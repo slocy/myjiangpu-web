@@ -158,7 +158,7 @@ Books.prototype = {
 
             var code =  window.localStorage.getItem("code");
 
-            window.location.href = "http://wx-api.slocy.cn/auth/fetchuser/" + code;
+            //window.location.href = "http://wx-api.slocy.cn/auth/fetchuser/" + code;
 
             $.getJSON("http://wx-api.slocy.cn/auth/fetchuser/" + window.localStorage.getItem("code"),
                 function(json) {
