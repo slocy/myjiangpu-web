@@ -8,7 +8,7 @@ $(document).on("pageinit",function(){
 
     $("#userinfo").html(code);
 
-    if(code!=null && code !="") {
+    //if(code!=null && code !="") {
 
         books = new Books();
         books.getData();
@@ -108,12 +108,12 @@ $(document).on("pageinit",function(){
 
 
 
-    }
-    else
-    {
-        //redirect to wx login
-        window.location.href="https://open.weixin.qq.com/connect/oauth2/authorize?appid=wxdebf3e2511cf03f7&redirect_uri=http://wx.slocy.cn&response_type=code&scope=snsapi_userinfo&state=1#wechat_redirect";
-    }
+    //}
+    //else
+    //{
+    //    //redirect to wx login
+    //    window.location.href="https://open.weixin.qq.com/connect/oauth2/authorize?appid=wxdebf3e2511cf03f7&redirect_uri=http://wx.slocy.cn&response_type=code&scope=snsapi_userinfo&state=1#wechat_redirect";
+    //}
 
 });
 
@@ -158,7 +158,20 @@ Books.prototype = {
 
             var code =  window.localStorage.getItem("code");
 
-            window.location.href = "http://wx.slocy.cn/auth/fetchuser/" + code;
+            window.location.href = "http://wx-api.slocy.cn/auth/fetchuser/" + code;
+
+            $.getJSON("http://wx-api.slocy.cn/auth/fetchuser/" + window.localStorage.getItem("code"),
+                function(json) {
+                    $("#userinfo").html(json);
+                    var tokenjson = $.parseJSON(json);
+                    window.localStorage.setItem("access_token", tokenjson.access_token);
+                    window.localStorage.setItem("openid", tokenjson.openid);
+
+                    var accessToken = window.localStorage.getItem("access_token");
+                    var openid = window.localStorage.getItem("openid");
+
+                    $("#userinfo").appendTo(accessToken + openid);
+                });
 
             //
             //$.ajax({
