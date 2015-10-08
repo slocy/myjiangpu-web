@@ -4,36 +4,29 @@ var books;
 
 $(document).on("pageinit",function() {
 
-    var global = new Global();
-    if (!global.hasUser()) {
-
-        var code = $.query.get('code');
-        /** 以下代码在手机真实访问时需取消注释 */
-        if(code!=null && code !="") {
-
-            var user = global.getAndCacheUser(code);
-
-            $("#userinfo").html("get user form remote: <img src='" + user.headimgurl + "' />" + user.nickname + user.city );
-
-
-        }
-        else
-        {
-            //redirect to wx login
-            window.location.href="https://open.weixin.qq.com/connect/oauth2/authorize?appid=wxdebf3e2511cf03f7&redirect_uri=http://wx.slocy.cn&response_type=code&scope=snsapi_base&state=1#wechat_redirect";
-        }
-    }
-    else {
-
-        var user = global.getUser();
-
-        $("#userinfo").html("get user form local storage: <img src='" + user.headimgurl + "' />" + user.nickname + user.city );
-
-    }
-
     books = new Books();
     books.getData();
     books.bindEvent();
+
+    var code = $.query.get('code');
+    $("#userinfo").html(code);
+
+    /** 以下代码在手机真实访问时需取消注释 */
+    if(code!=null && code !="") {
+
+        $.getJSON("http://wx-api.slocy.cn/auth/fetchuser/" + code, //"user.json",
+            function (json) {
+                var user = $.totalStorage("user", json.userinfo);
+                $("#userinfo").html("get user form remote: <img src='" + user.headimgurl + "' style='width:50px;height:50px;' />" + user.nickname + user.city );
+            });
+
+    }
+    else
+    {
+        //redirect to wx login
+        window.location.href="https://open.weixin.qq.com/connect/oauth2/authorize?appid=wxdebf3e2511cf03f7&redirect_uri=http://wx.slocy.cn&response_type=code&scope=snsapi_userinfo&state=1#wechat_redirect";
+    }
+
 
 });
 
@@ -91,9 +84,10 @@ Books.prototype = {
                     $("#userinfo").html(json.token.access_token + json.token.openid + json.userinfo.nickname);
                 });
 
+        });
 
-
-
+        $("#clearlocal").tap(function(){
+            localStorage.clear();
         });
     }
 

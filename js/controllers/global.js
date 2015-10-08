@@ -12,10 +12,12 @@ Global.prototype = {
     ///get userinfo from weixin and save it to localStorage.
     getAndCacheUser:function(code) {
 
+        var user;
         /* 手机访问时需改为远程获取 */
         $.getJSON("http://wx-api.slocy.cn/auth/fetchuser/" + code, //"user.json",
             function (json) {
-                return json != null ? $.totalStorage("user", json.userinfo) : null;
+                user = $.totalStorage("user", json.userinfo);
+                return user;
             });
     },
 
@@ -25,7 +27,7 @@ Global.prototype = {
 
     hasUser:function(){
         var user = $.totalStorage("user");
-        return user.openid != null ? true : false;
+        return user.openid != null;
     }
 
 
