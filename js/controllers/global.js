@@ -25,7 +25,7 @@ Global.prototype = {
 
     hasUser:function(){
         var user = $.totalStorage("user");
-        return user != null ? true : false;
+        return user.openid != null ? true : false;
     }
 
 

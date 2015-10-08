@@ -6,14 +6,14 @@ $(document).on("pageinit",function() {
 
     var global = new Global();
     if (!global.hasUser()) {
-        var code = $.query.get('code');
 
+        var code = $.query.get('code');
         /** 以下代码在手机真实访问时需取消注释 */
         if(code!=null && code !="") {
 
             var user = global.getAndCacheUser(code);
 
-            $("#userinfo").html("get user form local storage: <img src='" + user.headimgurl + "' />" + user.nickname + user.city );
+            $("#userinfo").html("get user form remote: <img src='" + user.headimgurl + "' />" + user.nickname + user.city );
 
 
         }
