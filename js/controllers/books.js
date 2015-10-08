@@ -2,118 +2,38 @@
 
 var books;
 
-$(document).on("pageinit",function(){
+$(document).on("pageinit",function() {
 
-    var code = $.query.get('code');
+    var global = new Global();
+    if (!global.hasUser()) {
+        var code = $.query.get('code');
 
-    $("#userinfo").html(code);
+        /** 以下代码在手机真实访问时需取消注释 */
+        if(code!=null && code !="") {
 
-    //if(code!=null && code !="") {
+            var user = global.getAndCacheUser(code);
 
-        books = new Books();
-        books.getData();
-        books.bindEvent();
-
-        window.localStorage.setItem("code",code);
-
-//        $.ajax({
-//            url: "http://wx.slocy.cn/auth/fetchuser/"+ code,
-//            success: function (data) {
-//
-//                alert('in success function');
-//                if (data != "") {
-//                    alert('in data');
-//                    /* the result by code
-//                     {
-//                     "access_token":"ACCESS_TOKEN",
-//                     "expires_in":7200,
-//                     "refresh_token":"REFRESH_TOKEN",
-//                     "openid":"OPENID",
-//                     "scope":"SCOPE",
-//                     "unionid": "o6_bmasdasdsad6_2sgVt7hMZOPfL"
-//                     }
-//                     * */
-//                    $("#userinfo").html("<p>token - "+data.token + "  openid:" +data.userinfo.openId+"</p>");
-///*
-//                    var tokenjson = $.parseJSON(data);
-//                    window.localStorage.setItem("access_token", tokenjson.access_token);
-//                    window.localStorage.setItem("openid", tokenjson.openid);
-//
-//                    $.ajax({
-//                        url: "https://api.weixin.qq.com/sns/userinfo?access_token=" + tokenjson.access_token + "&openid=" + tokenjson.openid + "&lang=zh_CN",
-//                        cache: false,
-//                        success: function (data) {
-//                            if (data != "") {
-//                                alert(data);
-//
-//                                //var userinfo = $.parseJSON(data);
-//                                //
-//                                //alert(userinfo.openid + userinfo.nickname + userinfo.sex + userinfo.unionid);
-//
-//                                /!*  user info by access_token and openid
-//                                 {
-//                                 "openid":" OPENID",
-//                                 "nickname": NICKNAME,
-//                                 "sex":"1",
-//                                 "province":"PROVINCE"
-//                                 "city":"CITY",
-//                                 "country":"COUNTRY",
-//                                 "headimgurl":    "http://wx.qlogo.cn/mmopen/g3MonUZtNHkdmzicIlibx6iaFqAc56vxLSUfpb6n5WKSYVY0ChQKkiaJSgQ1dZuTOgvLLrhJbERQQ4eMsv84eavHiaiceqxibJxCfHe/46",
-//                                 "privilege":[
-//                                 "PRIVILEGE1"
-//                                 "PRIVILEGE2"
-//                                 ],
-//                                 "unionid": "o6_bmasdasdsad6_2sgVt7hMZOPfL"
-//                                 }
-//
-//                                 * *!/
-//
-//                            }
-//                        },
-//                        error: function () {
-//
-//                        }
-//
-//                    }).fail(function(jqXHR, textStatus) {
-//                        alert( "get user info Request failed: " + textStatus );
-//                    });
-//*/
-//
-//                    /*  user info by access_token and openid
-//                     {
-//                     "openid":" OPENID",
-//                     "nickname": NICKNAME,
-//                     "sex":"1",
-//                     "province":"PROVINCE"
-//                     "city":"CITY",
-//                     "country":"COUNTRY",
-//                     "headimgurl":    "http://wx.qlogo.cn/mmopen/g3MonUZtNHkdmzicIlibx6iaFqAc56vxLSUfpb6n5WKSYVY0ChQKkiaJSgQ1dZuTOgvLLrhJbERQQ4eMsv84eavHiaiceqxibJxCfHe/46",
-//                     "privilege":[
-//                     "PRIVILEGE1"
-//                     "PRIVILEGE2"
-//                     ],
-//                     "unionid": "o6_bmasdasdsad6_2sgVt7hMZOPfL"
-//                     }
-//
-//                     * */
-//
-//                }
-//            }
-//
-//        }).fail(function(jqXHR, textStatus) {
-//            $("#userinfo").html("get user id Request failed: " + textStatus +code);
-//        });
+            $("#userinfo").html("get user form local storage: <img src='" + user.headimgurl + "' />" + user.nickname + user.city );
 
 
+        }
+        else
+        {
+            //redirect to wx login
+            window.location.href="https://open.weixin.qq.com/connect/oauth2/authorize?appid=wxdebf3e2511cf03f7&redirect_uri=http://wx.slocy.cn&response_type=code&scope=snsapi_base&state=1#wechat_redirect";
+        }
+    }
+    else {
 
+        var user = global.getUser();
 
+        $("#userinfo").html("get user form local storage: <img src='" + user.headimgurl + "' />" + user.nickname + user.city );
 
-    //}
-    //else
-    //{
-    //    //redirect to wx login
-    //    window.location.href="https://open.weixin.qq.com/connect/oauth2/authorize?appid=wxdebf3e2511cf03f7&redirect_uri=http://wx.slocy.cn&response_type=code&scope=snsapi_userinfo&state=1#wechat_redirect";
-    //}
+    }
+
+    books = new Books();
+    books.getData();
+    books.bindEvent();
 
 });
 
@@ -148,7 +68,7 @@ Books.prototype = {
     bindEvent:function() {
         $("#getInfoByWeixin").tap(function(){
 
-            var code =  window.localStorage.getItem("code");
+            var code =  $.totalStorage("code");
 
             window.location.href = "https://api.weixin.qq.com/sns/oauth2/access_token?appid=wxdebf3e2511cf03f7&secret=73cea8e8e906b72c86ce00ba47ab625a&code=" + code + "&grant_type=authorization_code";
 
@@ -156,54 +76,26 @@ Books.prototype = {
 
         $("#getInfoBySlocy").tap(function(){
 
-            var code =  window.localStorage.getItem("code");
+            var code =  $.totalStorage("code");
 
-            //window.location.href = "http://wx-api.slocy.cn/auth/fetchuser/" + code;
-
-            $.getJSON("http://wx-api.slocy.cn/auth/fetchuser/" + window.localStorage.getItem("code"),
+            $.getJSON("user.json", //"http://wx-api.slocy.cn/auth/fetchuser/" + window.localStorage.getItem("code"),
                 function(json) {
-                    $("#userinfo").html(json);
-                    var tokenjson = $.parseJSON(json);
-                    window.localStorage.setItem("access_token", tokenjson.access_token);
-                    window.localStorage.setItem("openid", tokenjson.openid);
+                    $("#userinfo").html("<p>"+JSON.stringify(json)+"</p>");
+                    $.
+                    //window.localStorage.setItem("access_token", user.token.access_token);
+                    //window.localStorage.setItem("openid", user.token.openid);
+                    //
+                    //var accessToken = window.localStorage.getItem("access_token");
+                    //var openid = window.localStorage.getItem("openid");
 
-                    var accessToken = window.localStorage.getItem("access_token");
-                    var openid = window.localStorage.getItem("openid");
-
-                    $("#userinfo").appendTo(accessToken + openid);
+                    $("#userinfo").html(json.token.access_token + json.token.openid + json.userinfo.nickname);
                 });
 
-            //
-            //$.ajax({
-            //    url: "https://api.weixin.qq.com/sns/oauth2/access_token?appid=wxdebf3e2511cf03f7&secret=73cea8e8e906b72c86ce00ba47ab625a&code=" + code + "&grant_type=authorization_code",
-            //    type:"json",
-            //    success: function (json) {
-            //        $("#userinfo").html(JSON.stringify(json));
-            //        //window.localStorage.setItem("access_token", json.access_token);
-            //        //window.localStorage.setItem("openid", json.openid);
-            //
-            //    }
-            //}).fail(function(jqXHR, textStatus) {
-            //    $("#userinfo").html("get user id Request failed: " + textStatus +code);
-            //});
 
-           /* $.getJSON("https://api.weixin.qq.com/sns/oauth2/access_token?appid=wxdebf3e2511cf03f7&secret=73cea8e8e906b72c86ce00ba47ab625a&code=" + window.localStorage.getItem("code") + "&grant_type=authorization_code",
-                function(json) {
-                    $("#userinfo").html(json);
-                    var tokenjson = $.parseJSON(json);
-                    window.localStorage.setItem("access_token", tokenjson.access_token);
-                    window.localStorage.setItem("openid", tokenjson.openid);
-                    //
-                    //var token= window.localStorage.getItem("access_token");
-                    //var openid = window.localStorage.getItem("openid");
-                    //
-                    //$.getJSON("https://api.weixin.qq.com/sns/userinfo?access_token="+token+"&openid="+openid+"&lang=zh_CN",
-                    //    function(json) {
-                    //        $("#userinfo").appendTo(json);
-                    //    });
-            });*/
 
 
         });
     }
+
+
 };

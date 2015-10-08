@@ -1,3 +1,38 @@
+
+
+/**
+ * Cache userinfo
+ * Created by JAMES on 10/07/15.
+ */
+
+
+function Global (){}
+Global.prototype = {
+
+    ///get userinfo from weixin and save it to localStorage.
+    getAndCacheUser:function(code) {
+
+        /* 手机访问时需改为远程获取 */
+        $.getJSON("http://wx-api.slocy.cn/auth/fetchuser/" + code, //"user.json",
+            function (json) {
+                return json != null ? $.totalStorage("user", json.userinfo) : null;
+            });
+    },
+
+    getUser:function(){
+        return this.hasUser() ? $.totalStorage("user") : null;
+    },
+
+    hasUser:function(){
+        var user = $.totalStorage("user");
+        return user != null ? true : false;
+    }
+
+
+}
+
+
+
 /**
  * stop user to pull down the page in wechat.
  * Created by JAMES on 09/17/15.
