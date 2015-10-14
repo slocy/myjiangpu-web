@@ -10,15 +10,17 @@ function Global (){}
 Global.prototype = {
 
     ///get userinfo from weixin and save it to localStorage.
-    getAndCacheUser:function(code) {
+    cacheUser:function(code) {
 
-        var user;
         /* 手机访问时需改为远程获取 */
-        $.getJSON("http://wx-api.slocy.cn/auth/fetchuser/" + code, //"user.json",
-            function (json) {
-                user = $.totalStorage("user", json.userinfo);
-                return user;
-            });
+        $.ajax({
+            url: "http://wx-api.slocy.cn/auth/fetchuser/" + code,//"user.json",
+            dataType:"json",
+            async:false,
+            success: function(data){
+                $.totalStorage("user", data.userinfo);
+            }
+        });
     },
 
     getUser:function(){
@@ -27,7 +29,7 @@ Global.prototype = {
 
     hasUser:function(){
         var user = $.totalStorage("user");
-        return user.openid != null;
+        return user != null;
     }
 
 

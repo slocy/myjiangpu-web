@@ -11,21 +11,29 @@ $(document).on("pageinit",function() {
     var code = $.query.get('code');
     $("#userinfo").html(code);
 
+    $.totalStorage("code", code);
+
+    //var global= new Global();
+
+
+    //var hasuser = global.hasUser();
+
     /** 以下代码在手机真实访问时需取消注释 */
-    if(code!=null && code !="") {
+    //if(code!=null && code !="") {
 
-        $.getJSON("http://wx-api.slocy.cn/auth/fetchuser/" + code, //"user.json",
-            function (json) {
-                var user = $.totalStorage("user", json.userinfo);
-                $("#userinfo").html("get user form remote: <img src='" + user.headimgurl + "' style='width:50px;height:50px;' />" + user.nickname + user.city );
-            });
 
-    }
-    else
-    {
-        //redirect to wx login
-        window.location.href="https://open.weixin.qq.com/connect/oauth2/authorize?appid=wxdebf3e2511cf03f7&redirect_uri=http://wx.slocy.cn&response_type=code&scope=snsapi_userinfo&state=1#wechat_redirect";
-    }
+    //$.getJSON("user.json", //"http://wx-api.slocy.cn/auth/fetchuser/" + code,
+    //    function (json) {
+    //        var user = $.totalStorage("user", json.userinfo);
+    //        $("#userinfo").html("get user form remote: <img src='" + user.headimgurl + "' style='width:50px;height:50px;' />" + user.nickname + user.city );
+    //    });
+
+    //}
+    //else
+    //{
+    //    //redirect to wx login
+    //    window.location.href="https://open.weixin.qq.com/connect/oauth2/authorize?appid=wxdebf3e2511cf03f7&redirect_uri=http://wx.slocy.cn&response_type=code&scope=snsapi_userinfo&state=1#wechat_redirect";
+    //}
 
 
 });
@@ -71,17 +79,10 @@ Books.prototype = {
 
             var code =  $.totalStorage("code");
 
-            $.getJSON("user.json", //"http://wx-api.slocy.cn/auth/fetchuser/" + window.localStorage.getItem("code"),
+            $.getJSON("http://wx-api.slocy.cn/auth/fetchuser/" + $.totalStorage("code"),
                 function(json) {
                     $("#userinfo").html("<p>"+JSON.stringify(json)+"</p>");
-                    $.
-                    //window.localStorage.setItem("access_token", user.token.access_token);
-                    //window.localStorage.setItem("openid", user.token.openid);
-                    //
-                    //var accessToken = window.localStorage.getItem("access_token");
-                    //var openid = window.localStorage.getItem("openid");
 
-                    $("#userinfo").html(json.token.access_token + json.token.openid + json.userinfo.nickname);
                 });
 
         });

@@ -2,7 +2,7 @@ var artisan;
 var artisanId;
 $(document).on("pageinit",function(){
 
-    artisanId = $.query.get('artisanid');
+    artisanId = $.query.get('artisanId');
 
     artisan = new Artisan();
     artisan.getData();
